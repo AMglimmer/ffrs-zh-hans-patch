@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0",
+  "version": "0.2.1",
   "culture": "zh-Hans",
   "resource": "FFRS/Content/Localization/Game/zh-Hans/Game.locres",
   "original_resource_sha256": "a47d0b59bd2549b837718a52eb5a832a9ce6c18bed721e2414fca6d2b15d85ae",
@@ -294,6 +294,7 @@
     }
   ],
   "upgrade_from_pak_sha256": [
-    "ec603aaddce333135cc8e7582661673b1edddfa589cd736501c0b9f3ecf0b6bc"
+    "ec603aaddce333135cc8e7582661673b1edddfa589cd736501c0b9f3ecf0b6bc",
+    "d823cd8a7c1afa50318c01d52c165b486dce3c547956b6dd5ead28674fe18753"
   ]
 }

@@ -43,6 +43,18 @@ def build(args):
     if listing != [config['resource']]: raise ValueError('Unexpected PAK contents')
     extracted = subprocess.check_output([str(args.repak.resolve()), 'get', str(pak), config['resource']])
     if extracted != patched: raise ValueError('PAK extraction round-trip mismatch')
+    # Retail enables the I/O dispatcher and rejects a Pak with no matching UToc.
+    # Locres is a non-package file and must stay in this Pak. Retoc creates an
+    # empty UE5.6 container header; its generated empty Pak must NOT replace ours.
+    with tempfile.TemporaryDirectory(prefix='ffrs-iostore-build-') as temporary:
+        toc = Path(temporary) / pak.with_suffix('.utoc').name
+        subprocess.run([str(args.retoc.resolve()), 'to-zen', str(pak), str(toc), '--version', 'UE5_6'], check=True)
+        subprocess.run([str(args.retoc.resolve()), 'verify', str(toc)], check=True)
+        info = subprocess.check_output([str(args.retoc.resolve()), 'info', str(toc)], text=True)
+        if 'packages: 0' not in info or 'chunks: 1' not in info or 'SoftPackageReferencesOffset' not in info:
+            raise ValueError('Unexpected IoStore companion contents/version')
+        for extension in ['.utoc', '.ucas']:
+            shutil.copy2(toc.with_suffix(extension), payload / pak.with_suffix(extension).name)
     for path in (ROOT / 'portable').iterdir():
         if path.is_file():
             if path.suffix in ('.cmd', '.ps1'):
@@ -50,6 +62,8 @@ def build(args):
             else: shutil.copy2(path, target / path.name)
     manifest = {k: config[k] for k in ['version','culture','resource','original_resource_sha256','supported_retail_exe_sha256','pak_filename','upgrade_from_pak_sha256'] if k in config}
     manifest.update({'pak_sha256':sha(pak.read_bytes()), 'patched_resource_sha256':sha(patched), 'total_entries':len(source.entries), 'changed_entries':len(changed), 'unchanged_entries':len(source.entries)-len(changed)})
+    manifest['files'] = {p.name: sha(p.read_bytes()) for p in sorted(payload.iterdir())}
+    manifest['iostore_engine_version'] = 'UE5_6'
     (target / 'package.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
     (target / 'changes.json').write_text(json.dumps(config['changes'],ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps(manifest,indent=2))
@@ -57,6 +71,7 @@ def build(args):
 if __name__ == '__main__':
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--repak', type=Path, required=True)
+    p.add_argument('--retoc', type=Path, required=True)
     p.add_argument('--pak', type=Path, required=True)
     p.add_argument('--output', type=Path, required=True)
     build(p.parse_args())
