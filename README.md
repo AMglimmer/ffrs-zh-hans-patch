@@ -28,4 +28,4 @@ loader requires a matching UToc; standalone Pak was not mounted. The Locres
 remains in the Pak; retoc UE5_6 generates a separate empty asset container
 (header only, zero packages). Only its UToc/UCas are retained, never its empty Pak.
 See https://github.com/trumank/retoc for the companion generator.
-Runtime display confirmation is still required after installation/restart.
+After installing/restarting on 2026-10-27, the user confirmed both the Flare skill name and Moogle NPC name display correctly. All other changed entries have not been individually viewed in game.
