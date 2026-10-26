@@ -46,4 +46,14 @@ with tempfile.TemporaryDirectory(prefix='ffrs-flare-deploy-') as temporary:
     bundle,game,exe,mod=fixture('corrupt-payload')
     next((bundle/'payload').glob('*.pak')).write_bytes(b'CORRUPT')
     invoke(bundle,game,'Install',1);assert not mod.exists()
-print(json.dumps({'passed_groups':5,'checks':['install/idempotence/uninstall after game update','unknown build rejected','foreign file preserved','running game rejected','corrupt payload rejected'],'original_archives_and_other_mods':'unchanged'}))
+    checks=['install/idempotence/uninstall after game update','unknown build rejected','foreign file preserved','running game rejected','corrupt payload rejected']
+    if len(sys.argv)>2:
+        previous=Path(sys.argv[2]).resolve()
+        bundle,game,exe,mod=fixture('known-upgrade')
+        old=next((previous/'payload').glob('*.pak')).read_bytes();mod.write_bytes(old)
+        invoke(bundle,game,'Install')
+        assert mod.read_bytes()==next((bundle/'payload').glob('*.pak')).read_bytes()
+        assert any(p.read_bytes()==old for p in (bundle/'backups').glob('*.pak'))
+        invoke(bundle,game,'Uninstall');assert not mod.exists()
+        checks.append('verified previous version backed up and upgraded')
+print(json.dumps({'passed_groups':len(checks),'checks':checks,'original_archives_and_other_mods':'unchanged'}))

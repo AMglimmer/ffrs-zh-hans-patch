@@ -1,7 +1,8 @@
-# FFRS Flare → 核爆 (zh-Hans only)
+# FFRS terminology adjustments (zh-Hans only)
 
-This independent text overlay changes nine explicitly reviewed localization
-entries. It does not modify the ultrawide project or original game archives.
+This independent text overlay changes 34 explicitly reviewed localization
+entries: nine Flare entries (火光 → 核爆) and 25 Moogle entries containing 39
+occurrences of 莫古利 → 莫古力. It does not modify the ultrawide project or original game archives.
 Original extracted game resources are kept outside this source directory.
 
 Build with Python 3 and [repak](https://github.com/trumank/repak):

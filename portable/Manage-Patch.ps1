@@ -26,19 +26,36 @@ try {
     $source = Join-Path $PSScriptRoot ('payload\' + $metadata.pak_filename)
     $folder = Join-Path $gameRoot 'FFRS\Content\Paks\~mods'
     $destination = Join-Path $folder $metadata.pak_filename
+    $previousHash = $null
     if (Test-Path -LiteralPath $destination) {
-        if ((Get-PatchHash $destination) -ne $metadata.pak_sha256) {
-            throw 'Existing mod file differs. Preserve it and resolve the conflict before continuing.'
+        $existingHash = Get-PatchHash $destination
+        if ($existingHash -ne $metadata.pak_sha256) {
+            if ($Action -eq 'Install' -and @($metadata.upgrade_from_pak_sha256) -contains $existingHash) {
+                $previousHash = $existingHash
+            } else {
+                throw 'Existing mod file differs. Preserve it and resolve the conflict before continuing.'
+            }
         }
     }
     if ($Action -eq 'Install') {
         if ((Get-PatchHash $source) -ne $metadata.pak_sha256) { throw 'Payload hash mismatch.' }
+        $backup = $null
+        if ($previousHash) {
+            $backupFolder = Join-Path $PSScriptRoot 'backups'
+            New-Item -ItemType Directory -Path $backupFolder -Force | Out-Null
+            $backup = Join-Path $backupFolder ($previousHash + '-' + $metadata.pak_filename)
+            if (-not (Test-Path -LiteralPath $backup)) { Copy-Item -LiteralPath $destination -Destination $backup }
+            if ((Get-PatchHash $backup) -ne $previousHash) { throw 'Previous mod backup verification failed.' }
+        }
         New-Item -ItemType Directory -Path $folder -Force | Out-Null
         $temporary = $destination + '.install-tmp'
         try {
             Copy-Item -LiteralPath $source -Destination $temporary -Force
             if ((Get-PatchHash $temporary) -ne $metadata.pak_sha256) { throw 'Copy verification failed.' }
             Move-Item -LiteralPath $temporary -Destination $destination -Force
+        } catch {
+            if ($backup) { Copy-Item -LiteralPath $backup -Destination $destination -Force }
+            throw
         } finally {
             if (Test-Path -LiteralPath $temporary) { Remove-Item -LiteralPath $temporary }
         }

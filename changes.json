@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "culture": "zh-Hans",
   "resource": "FFRS/Content/Localization/Game/zh-Hans/Game.locres",
   "original_resource_sha256": "a47d0b59bd2549b837718a52eb5a832a9ce6c18bed721e2414fca6d2b15d85ae",
@@ -77,6 +77,206 @@
       "old": "倒计时到0时就会施放百万火光",
       "new": "倒计时到0时就会施放百万核爆",
       "english": "Unleashes Megaflare each time the countdown reaches zero."
+    },
+    {
+      "namespace": "ST_C03_306_01",
+      "key": "306_01_013",
+      "source_hash": "8f14f32d",
+      "old": "嗯，老实说你们说得没错。\r\n我们现在缺人手缺到甚至想找莫古利帮忙。",
+      "new": "嗯，老实说你们说得没错。\r\n我们现在缺人手缺到甚至想找莫古力帮忙。",
+      "english": "Yes, if I’m being honest, it is as you say. We’re stretched thin like a flattened flan. Right now, we need all the help we can get."
+    },
+    {
+      "namespace": "ST_CharaName",
+      "key": "CharaName0252",
+      "source_hash": "6e8d06c8",
+      "old": "稳重的莫古利",
+      "new": "稳重的莫古力",
+      "english": "Leisurely Moogle"
+    },
+    {
+      "namespace": "ST_CharaName",
+      "key": "CharaName0019",
+      "source_hash": "48d17024",
+      "old": "莫古利",
+      "new": "莫古力",
+      "english": "Moogle"
+    },
+    {
+      "namespace": "ST_CharaName",
+      "key": "CharaName0251",
+      "source_hash": "dd8eb594",
+      "old": "活泼的莫古利",
+      "new": "活泼的莫古力",
+      "english": "Lively Moogle"
+    },
+    {
+      "namespace": "ST_CharaName",
+      "key": "CharaName0179",
+      "source_hash": "eeaed1b1",
+      "old": "光明莫古利",
+      "new": "光明莫古力",
+      "english": "Moogle of Light"
+    },
+    {
+      "namespace": "ST_CharaName",
+      "key": "CharaName0253",
+      "source_hash": "04f4e63f",
+      "old": "开朗的莫古利",
+      "new": "开朗的莫古力",
+      "english": "Likable Moogle"
+    },
+    {
+      "namespace": "ST_ChrEv_2280_002_01",
+      "key": "ChrEv_2280_002_01_039",
+      "source_hash": "c66d6d65",
+      "old": "而且最惨的是，我们还差点被那些\r\n没缩小的莫古利统治……",
+      "new": "而且最惨的是，我们还差点被那些\r\n没缩小的莫古力统治……",
+      "english": "We were on the cusp of having moogles as our new masters as well, for they were immune to the spell."
+    },
+    {
+      "namespace": "ST_ChrEv_2280_002_01",
+      "key": "ChrEv_2280_002_01_040",
+      "source_hash": "e4390978",
+      "old": "莫古利们居然……",
+      "new": "莫古力们居然……",
+      "english": "Moogle overlords? I’m not sure if I would’ve welcomed them..."
+    },
+    {
+      "namespace": "ST_SubEv_C01_Moogle_01",
+      "key": "SubEv_C01_Moogle_01_019",
+      "source_hash": "c8af2987",
+      "old": "嗯，我知道了。\r\n光明莫古利，以后也要麻烦你啦。",
+      "new": "嗯，我知道了。\r\n光明莫古力，以后也要麻烦你啦。",
+      "english": "You got it. Thanks, moogle light. Counting on you."
+    },
+    {
+      "namespace": "ST_SubEv_C01_Moogle_01",
+      "key": "SubEv_C01_Moogle_01_004",
+      "source_hash": "3e8c35a7",
+      "old": "我可没见过像你这样的莫古利，\r\n更不可能会抛下你啊……？",
+      "new": "我可没见过像你这样的莫古力，\r\n更不可能会抛下你啊……？",
+      "english": "I don’t believe we’ve ever met, let alone “ditched,” a moogle like you before..."
+    },
+    {
+      "namespace": "ST_SubEv_C01_Moogle_01",
+      "key": "SubEv_C01_Moogle_01_008",
+      "source_hash": "fe019b6b",
+      "old": "我是光明莫古利，\r\n名为“光之莫古利”库啵！",
+      "new": "我是光明莫古力，\r\n名为“光之莫古力”库啵！",
+      "english": "Why, I’m the Moogle of Light, kupo!"
+    },
+    {
+      "namespace": "ST_SubEv_C01_Moogle_01",
+      "key": "SubEv_C01_Moogle_01_020",
+      "source_hash": "1406daf5",
+      "old": "要叫我光之莫古利库啵！！",
+      "new": "要叫我光之莫古力库啵！！",
+      "english": "“Moogle light”? What am I, a lamp, kupo?\r\nIt’s <text style=\"italic\">Moogle of Light</>, thank you very much, kupo!"
+    },
+    {
+      "namespace": "ST_SubEv_C01_Moogle_02",
+      "key": "SubEv_C01_Moogle_02_001",
+      "source_hash": "334df91f",
+      "old": "我是来自异界的伟大莫古利库啵。\r\n是光之意志要我来帮助你们的库啵。",
+      "new": "我是来自异界的伟大莫古力库啵。\r\n是光之意志要我来帮助你们的库啵。",
+      "english": "I’m the moogle big shot from the Farplane, kupo. I’m here to help you boys at the request of the Will of Light, kupo."
+    },
+    {
+      "namespace": "ST_SubEv_C05_MogChase_01",
+      "key": "SubEv_C05_MogChase_01_011",
+      "source_hash": "2ceaca02",
+      "old": "莫古利捉迷藏迷你游戏（未实装）",
+      "new": "莫古力捉迷藏迷你游戏（未实装）",
+      "english": "Moogle Tag Minigame (Not implemented)"
+    },
+    {
+      "namespace": "ST_SubEv_MechaboLvUp_10",
+      "key": "SubEv_MechaboLvUp_10_016",
+      "source_hash": "528d02cc",
+      "old": "正是如此！\r\n陆行鸟的伙伴，\r\n当然得是莫古利吧！",
+      "new": "正是如此！\r\n陆行鸟的伙伴，\r\n当然得是莫古力吧！",
+      "english": "Exactamundo! Chocobos and moogles go together like salt and pepper, right? That’s where I got the idea."
+    },
+    {
+      "namespace": "ST_SubEv_MechaboLvUp_10",
+      "key": "SubEv_MechaboLvUp_10_015",
+      "source_hash": "f53e0bee",
+      "old": "机械莫古……？\r\n该不会是机械莫古利？",
+      "new": "机械莫古……？\r\n该不会是机械莫古力？",
+      "english": "Mechamog? Is that like...a mecha...moogle?"
+    },
+    {
+      "namespace": "ST_SubProgress",
+      "key": "SubProgress_143",
+      "source_hash": "1cb910c2",
+      "old": "在与莫古利的赛跑中获得胜利",
+      "new": "在与莫古力的赛跑中获得胜利",
+      "english": "Beat the moogles at tag"
+    },
+    {
+      "namespace": "ST_SubProgress",
+      "key": "SubProgress_144",
+      "source_hash": "1cb910c2",
+      "old": "在与莫古利的赛跑中获得胜利",
+      "new": "在与莫古力的赛跑中获得胜利",
+      "english": "Beat the moogles at tag"
+    },
+    {
+      "namespace": "ST_SubProgress",
+      "key": "SubProgress_145",
+      "source_hash": "1cb910c2",
+      "old": "在与莫古利的赛跑中获得胜利",
+      "new": "在与莫古力的赛跑中获得胜利",
+      "english": "Beat the moogles at tag"
+    },
+    {
+      "namespace": "ST_SubSummary",
+      "key": "SubSummary_195",
+      "source_hash": "6879dd46",
+      "old": "在密西迪亚遇到了三只莫古利。\r\n它们好像想玩捉迷藏，但谁也不愿当鬼。\r\n雷因决定当鬼追赶这些莫古利。\r\n\r\n来吧，一起去追莫古利吧！",
+      "new": "在密西迪亚遇到了三只莫古力。\r\n它们好像想玩捉迷藏，但谁也不愿当鬼。\r\n雷因决定当鬼追赶这些莫古力。\r\n\r\n来吧，一起去追莫古力吧！",
+      "english": "Three moogles in Mysidia want to play tag, but none of them want to be “it.” So Rain agrees to be “it” and chase them around. Go get those moogles!"
+    },
+    {
+      "namespace": "ST_SubSummary",
+      "key": "SubSummary_196",
+      "source_hash": "8b6255d0",
+      "old": "在密西迪亚遇到了三只莫古利。\r\n它们好像想玩捉迷藏，但谁也不愿当鬼。\r\n雷因决定当鬼追赶这些莫古利。\r\n\r\n来吧，一起去追莫古利吧！\r\n\r\n总算逮到这些莫古利了。\r\n它们都很开心，似乎还想下次能再一起玩捉迷藏。\r\n下次想玩的话，再去找它们吧。",
+      "new": "在密西迪亚遇到了三只莫古力。\r\n它们好像想玩捉迷藏，但谁也不愿当鬼。\r\n雷因决定当鬼追赶这些莫古力。\r\n\r\n来吧，一起去追莫古力吧！\r\n\r\n总算逮到这些莫古力了。\r\n它们都很开心，似乎还想下次能再一起玩捉迷藏。\r\n下次想玩的话，再去找它们吧。",
+      "english": "Three moogles in Mysidia want to play tag, but none of them want to be “it.” So Rain agrees to be “it” and chase them around. Go get those moogles!\n\nRain manages to catch the moogles, who say they had a lot of fun and would love to play again. So drop by if time allows!"
+    },
+    {
+      "namespace": "ST_SubSummary",
+      "key": "SubSummary_198",
+      "source_hash": "2cb1e653",
+      "old": "一起玩过捉迷藏的莫古利们，又来邀请你玩捉迷藏了。\r\n这次它们打算逃到哪里去呢？\r\n来吧，去追那些莫古利们吧！",
+      "new": "一起玩过捉迷藏的莫古力们，又来邀请你玩捉迷藏了。\r\n这次它们打算逃到哪里去呢？\r\n来吧，去追那些莫古力们吧！",
+      "english": "The moogles had so much fun playing tag that they want to do it again. But where will they run to this time? Go get those moogles!"
+    },
+    {
+      "namespace": "ST_SubSummary",
+      "key": "SubSummary_199",
+      "source_hash": "51e97e1d",
+      "old": "一起玩过捉迷藏的莫古利们，又来邀请你玩捉迷藏了。\r\n这次它们打算逃到哪里去呢？\r\n来吧，去追那些莫古利们吧！\r\n\r\n虽然这次比上次更难，但总算逮到三只了。\r\n\r\n不过它们看起来还没玩够，等下次想玩时再去找它们吧。",
+      "new": "一起玩过捉迷藏的莫古力们，又来邀请你玩捉迷藏了。\r\n这次它们打算逃到哪里去呢？\r\n来吧，去追那些莫古力们吧！\r\n\r\n虽然这次比上次更难，但总算逮到三只了。\r\n\r\n不过它们看起来还没玩够，等下次想玩时再去找它们吧。",
+      "english": "The moogles had so much fun playing tag that they want to do it again. But where will they run to this time? Go get those moogles!\n\nAlthough it was a bit more difficult than last time, Rain manages to get all three moogles. Yet, they still haven’t had their fill of fun. Come by and play tag again if the mood strikes!"
+    },
+    {
+      "namespace": "ST_SubSummary",
+      "key": "SubSummary_201",
+      "source_hash": "95da815d",
+      "old": "之前和莫古利们玩过两次激烈的捉迷藏，\r\n没想到现在竟然要玩第三次了。\r\n\r\n变得更加认真的莫古利们，这次究竟会逃往哪里呢？\r\n来吧，去追莫古利们吧！",
+      "new": "之前和莫古力们玩过两次激烈的捉迷藏，\r\n没想到现在竟然要玩第三次了。\r\n\r\n变得更加认真的莫古力们，这次究竟会逃往哪里呢？\r\n来吧，去追莫古力们吧！",
+      "english": "After two fierce battles of tag with the moogles, it’s time for the final round. The moogles are playing for keeps this time and certainly won’t make things easy. Now get out there and chase them down!"
+    },
+    {
+      "namespace": "ST_SubSummary",
+      "key": "SubSummary_202",
+      "source_hash": "720398ef",
+      "old": "之前和莫古利们玩过两次激烈的捉迷藏，\r\n没想到现在竟然要玩第三次了。\r\n\r\n变得更加认真的莫古利们，这次究竟会逃往哪里呢？\r\n来吧，去追莫古利们吧！\r\n\r\n这场漫长的捉迷藏，最后以雷因的胜利落幕。\r\n\r\n历经三度较量，莫古利们总算明白自己无法从雷因的手掌心逃脱。\r\n但无论胜负如何，莫古利们似乎都非常满足，并向雷因致谢。",
+      "new": "之前和莫古力们玩过两次激烈的捉迷藏，\r\n没想到现在竟然要玩第三次了。\r\n\r\n变得更加认真的莫古力们，这次究竟会逃往哪里呢？\r\n来吧，去追莫古力们吧！\r\n\r\n这场漫长的捉迷藏，最后以雷因的胜利落幕。\r\n\r\n历经三度较量，莫古力们总算明白自己无法从雷因的手掌心逃脱。\r\n但无论胜负如何，莫古力们似乎都非常满足，并向雷因致谢。",
+      "english": "After two fierce battles of tag with the moogles, it’s time for the final round. The moogles are playing for keeps this time and certainly won’t make things easy. Now get out there and chase them down!\n\nAfter a hard-fought battle of tag, Rain emerges victorious and the moogles realize they’ll never win. Yet, they seem extremely satisfied and express their sincerest gratitude."
     }
   ],
   "excluded": [
@@ -92,5 +292,8 @@
       "text": "石像亮起了火光！",
       "reason": "Ordinary fire/light description, not the Flare spell"
     }
+  ],
+  "upgrade_from_pak_sha256": [
+    "ec603aaddce333135cc8e7582661673b1edddfa589cd736501c0b9f3ecf0b6bc"
   ]
 }

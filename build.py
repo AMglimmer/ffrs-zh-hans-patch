@@ -48,7 +48,7 @@ def build(args):
             if path.suffix in ('.cmd', '.ps1'):
                 (target / path.name).write_bytes(path.read_text(encoding='utf-8').replace('\r\n', '\n').replace('\n', '\r\n').encode('utf-8'))
             else: shutil.copy2(path, target / path.name)
-    manifest = {k: config[k] for k in ['version','culture','resource','original_resource_sha256','supported_retail_exe_sha256','pak_filename']}
+    manifest = {k: config[k] for k in ['version','culture','resource','original_resource_sha256','supported_retail_exe_sha256','pak_filename','upgrade_from_pak_sha256'] if k in config}
     manifest.update({'pak_sha256':sha(pak.read_bytes()), 'patched_resource_sha256':sha(patched), 'total_entries':len(source.entries), 'changed_entries':len(changed), 'unchanged_entries':len(source.entries)-len(changed)})
     (target / 'package.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
     (target / 'changes.json').write_text(json.dumps(config['changes'],ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
