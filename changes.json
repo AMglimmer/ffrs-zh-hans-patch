@@ -1,0 +1,96 @@
+{
+  "version": "0.1.0",
+  "culture": "zh-Hans",
+  "resource": "FFRS/Content/Localization/Game/zh-Hans/Game.locres",
+  "original_resource_sha256": "a47d0b59bd2549b837718a52eb5a832a9ce6c18bed721e2414fca6d2b15d85ae",
+  "supported_retail_exe_sha256": "b8c588e46ebadbe37feca7bdf2da0ae63a8538099d14a53ec0c2241b086e5ffa",
+  "pak_filename": "FFRS-FlareZhHans_99_P.pak",
+  "changes": [
+    {
+      "namespace": "ST_C01_001_06",
+      "key": "001_06_007",
+      "source_hash": "a3308287",
+      "old": "百万火光！！",
+      "new": "百万核爆！！",
+      "english": "Megaflare!"
+    },
+    {
+      "namespace": "ST_ChrEv_2280_005_01",
+      "key": "ChrEv_2280_005_01_017",
+      "source_hash": "55ac187b",
+      "old": "天啊……\r\n明明她正在教我怎么施放火光的！",
+      "new": "天啊……\r\n明明她正在教我怎么施放核爆的！",
+      "english": "Yeah... And she was just about to teach me how to cast Flare!"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName220330",
+      "source_hash": "28b56eed",
+      "old": "火光",
+      "new": "核爆",
+      "english": "Flare"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName250330",
+      "source_hash": "28b56eed",
+      "old": "火光",
+      "new": "核爆",
+      "english": "Flare"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName420270",
+      "source_hash": "adb4f0e7",
+      "old": "火光剑",
+      "new": "核爆剑",
+      "english": "Flare Blade"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName300110",
+      "source_hash": "68a611f6",
+      "old": "百万火光",
+      "new": "百万核爆",
+      "english": "Megaflare"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName505820",
+      "source_hash": "68a611f6",
+      "old": "百万火光",
+      "new": "百万核爆",
+      "english": "Megaflare"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName500840",
+      "source_hash": "6f87f276",
+      "old": "3级火光",
+      "new": "3级核爆",
+      "english": "Level 3 Flare"
+    },
+    {
+      "namespace": "ST_UnitTrait01",
+      "key": "Trait_01_458",
+      "source_hash": "f6723ede",
+      "old": "倒计时到0时就会施放百万火光",
+      "new": "倒计时到0时就会施放百万核爆",
+      "english": "Unleashes Megaflare each time the countdown reaches zero."
+    }
+  ],
+  "excluded": [
+    {
+      "namespace": "ST_SubEv_StoneStatue",
+      "key": "SubEv_StoneStatue_019",
+      "text": "喔喔！这座石像也亮起了火光。\r\n照这个步调去摸摸其他石像吧。",
+      "reason": "Ordinary fire/light description, not the Flare spell"
+    },
+    {
+      "namespace": "ST_SubEv_StoneStatue",
+      "key": "SubEv_StoneStatue_011",
+      "text": "石像亮起了火光！",
+      "reason": "Ordinary fire/light description, not the Flare spell"
+    }
+  ]
+}
