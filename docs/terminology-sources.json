@@ -137,7 +137,9 @@
         "ja": "ドレイン"
       }
     ],
-    "url": "https://strings.ffcafe.cn/api/search?q=%22%E3%83%89%E3%83%AC%E3%82%A4%E3%83%B3%22+OR+%22%E3%82%A2%E3%82%B9%E3%83%94%E3%83%AB%22+OR+%22%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%22&lang=ja&sheet=Action&fields=ja%2Cen%2Cchs&mode=advanced&limit=300"
+    "url": "https://strings.ffcafe.cn/api/search?q=%22%E3%83%89%E3%83%AC%E3%82%A4%E3%83%B3%22+OR+%22%E3%82%A2%E3%82%B9%E3%83%94%E3%83%AB%22+OR+%22%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%22&lang=ja&sheet=Action&fields=ja%2Cen%2Cchs&mode=advanced&limit=300",
+    "applied": false,
+    "policy_note": "0.3.1 retains the original 吸血 / 吸血匕首 by user preference. The FF14 reference below is retained as research evidence only, not an applied replacement."
   },
   {
     "ja": "フレア",

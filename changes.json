@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0",
+  "version": "0.3.1",
   "culture": "zh-Hans",
   "resource": "FFRS/Content/Localization/Game/zh-Hans/Game.locres",
   "original_resource_sha256": "a47d0b59bd2549b837718a52eb5a832a9ce6c18bed721e2414fca6d2b15d85ae",
@@ -808,14 +808,6 @@
     },
     {
       "namespace": "ST_SkillName",
-      "key": "SkillName220300",
-      "source_hash": "dccdeadc",
-      "old": "吸血",
-      "new": "吸取",
-      "english": "Drain"
-    },
-    {
-      "namespace": "ST_SkillName",
       "key": "SkillName220330",
       "source_hash": "28b56eed",
       "old": "火光",
@@ -853,14 +845,6 @@
       "old": "强缓慢",
       "new": "强减速",
       "english": "Slowga"
-    },
-    {
-      "namespace": "ST_SkillName",
-      "key": "SkillName250300",
-      "source_hash": "dccdeadc",
-      "old": "吸血",
-      "new": "吸取",
-      "english": "Drain"
     },
     {
       "namespace": "ST_SkillName",
@@ -925,14 +909,6 @@
       "old": "火光剑",
       "new": "核爆剑",
       "english": "Flare Blade"
-    },
-    {
-      "namespace": "ST_SkillName",
-      "key": "SkillName422040",
-      "source_hash": "b9f7e96f",
-      "old": "吸血匕首",
-      "new": "吸取匕首",
-      "english": "Drain Knife"
     },
     {
       "namespace": "ST_SkillName",
@@ -1443,15 +1419,35 @@
       "key": "SubEv_StoneStatue_011",
       "text": "石像亮起了火光！",
       "reason": "Ordinary fire/light description, not the Flare spell"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName220300",
+      "text": "吸血",
+      "reason": "Keep the original 吸血 / 吸血匕首 terminology by user preference; Drain and Blood Drain remain in the 吸血 family."
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName250300",
+      "text": "吸血",
+      "reason": "Keep the original 吸血 / 吸血匕首 terminology by user preference; Drain and Blood Drain remain in the 吸血 family."
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName422040",
+      "text": "吸血匕首",
+      "reason": "Keep the original 吸血 / 吸血匕首 terminology by user preference; Drain and Blood Drain remain in the 吸血 family."
     }
   ],
   "upgrade_from_pak_sha256": [
     "ec603aaddce333135cc8e7582661673b1edddfa589cd736501c0b9f3ecf0b6bc",
-    "d823cd8a7c1afa50318c01d52c165b486dce3c547956b6dd5ead28674fe18753"
+    "d823cd8a7c1afa50318c01d52c165b486dce3c547956b6dd5ead28674fe18753",
+    "1693f576994817e7c5bd1f627b3c27c9316e1ba51d928acffa223ec6c1fbba40"
   ],
   "upgrade_from_files": {
     "FFRS-FlareZhHans_99_P.pak": [
-      "d823cd8a7c1afa50318c01d52c165b486dce3c547956b6dd5ead28674fe18753"
+      "d823cd8a7c1afa50318c01d52c165b486dce3c547956b6dd5ead28674fe18753",
+      "1693f576994817e7c5bd1f627b3c27c9316e1ba51d928acffa223ec6c1fbba40"
     ],
     "FFRS-FlareZhHans_99_P.ucas": [
       "dec4f78ca48bbb3536d550142d479fd70daab0e4a5deb6325a0c09f3dc30ac48"
