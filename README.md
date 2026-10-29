@@ -1,31 +1,25 @@
-# FFRS terminology adjustments (zh-Hans only)
+# FFRS 简体术语统一补丁
 
-This independent text overlay changes 34 explicitly reviewed localization
-entries: nine Flare entries (火光 → 核爆) and 25 Moogle entries containing 39
-occurrences of 莫古利 → 莫古力. It does not modify the ultrawide project or original game archives.
-Original extracted game resources are kept outside this source directory.
+FF14 国服译名优先的非官方社区 MOD，适用于已核对的 Steam 正式版 build 24250053 / Windows x64。0.3.0 共修订 178 条简体文本，其余 26,547 条不变。
 
-Build with Python 3 and [repak](https://github.com/trumank/repak):
+项目主页：https://github.com/AMglimmer/ffrs-zh-hans-patch
+
+普通玩家请到 Releases 下载 ZIP，完整解压、退出游戏，双击“一键安装.cmd”。纯译名包不包含运行时 DLL/ASI，不修改存档。
+
+源码提供严格的 Locres v3 读写、精确文本键清单、构建脚本和可恢复安装器。不包含原始提取资源、完整其他语言表、个人存档或诊断转储。
+
+## Build
+
+Python 3, repak and retoc are needed only to build; end users only need Windows PowerShell.
 
 ```powershell
 python build.py --repak path/to/repak.exe --retoc path/to/retoc.exe --pak "path/to/FFRS-Windows.pak" --output path/to/new-package-folder
+python test_locres.py
+python test_deploy.py path/to/new-package-folder
 ```
 
-The builder validates the original resource hash, patches only approved keys,
-preserves source hashes and string encodings, verifies every unchanged entry,
-and packs a single localization resource in a separate V11 Pak. No encrypted
-archives, executable offsets, game hooks or memory writes are required.
+The builder validates the original resource hash, patches only approved keys, preserves source hashes and string encodings, verifies every unchanged entry, and produces a V11 localization Pak with matching empty UE5.6 IoStore companions. No game archive is overwritten.
 
-The Locres version 3 layout was cross-checked against the primary tool/source
-references [UnrealLocres](https://github.com/akintos/UnrealLocres) and
-[CUE4Parse](https://github.com/FabianFG/CUE4Parse).
+The Locres layout was cross-checked with [UnrealLocres](https://github.com/akintos/UnrealLocres) and [CUE4Parse](https://github.com/FabianFG/CUE4Parse). Container tools: [repak](https://github.com/trumank/repak), [retoc](https://github.com/trumank/retoc). Terminology reference: [FFCAFE](https://strings.ffcafe.cn/).
 
-Only the existing locally installed Steam build 24250053 is supported. Do not
-commit or redistribute extracted original localization tables or crash/save data.
-
-Version 0.2.1 corrects the missing IoStore companions in 0.2.0. The retail
-loader requires a matching UToc; standalone Pak was not mounted. The Locres
-remains in the Pak; retoc UE5_6 generates a separate empty asset container
-(header only, zero packages). Only its UToc/UCas are retained, never its empty Pak.
-See https://github.com/trumank/retoc for the companion generator.
-After installing/restarting on 2026-10-27, the user confirmed both the Flare skill name and Moogle NPC name display correctly. All other changed entries have not been individually viewed in game.
+Game text and assets retain their original owners' rights. This project is not affiliated with or endorsed by Square Enix or FFCAFE. Choosing FF14 terminology is a community preference, not a claim that other official translations are erroneous.

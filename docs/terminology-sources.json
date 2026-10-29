@@ -1,0 +1,624 @@
+[
+  {
+    "ja": "エスナ",
+    "old": "复原",
+    "new": "康复",
+    "english": "Esuna",
+    "evidence": "FF14 same Japanese name",
+    "references": [
+      {
+        "id": "126",
+        "chs": "康复",
+        "en": "Esuna",
+        "ja": "エスナ"
+      },
+      {
+        "id": "7568",
+        "chs": "康复",
+        "en": "Esuna",
+        "ja": "エスナ"
+      },
+      {
+        "id": "16931",
+        "chs": "康复",
+        "en": "Esuna",
+        "ja": "エスナ"
+      }
+    ],
+    "url": "https://strings.ffcafe.cn/api/search?q=%22%E3%82%A8%E3%82%B9%E3%83%8A%22+OR+%22%E3%82%A2%E3%83%AC%E3%82%A4%E3%82%BA%22+OR+%22%E3%83%AA%E3%83%AC%E3%82%A4%E3%82%BA%22&lang=ja&sheet=Action&fields=ja%2Cen%2Cchs&mode=advanced&limit=300"
+  },
+  {
+    "ja": "リジェネ",
+    "old": "渐愈",
+    "new": "再生",
+    "english": "Regen",
+    "evidence": "FF14 same Japanese name",
+    "references": [
+      {
+        "id": "5597",
+        "chs": "再生",
+        "en": "Regen",
+        "ja": "リジェネ"
+      },
+      {
+        "id": "5596",
+        "chs": "再生",
+        "en": "Regen",
+        "ja": "リジェネ"
+      },
+      {
+        "id": "137",
+        "chs": "再生",
+        "en": "Regen",
+        "ja": "リジェネ"
+      }
+    ],
+    "url": "https://strings.ffcafe.cn/api/search?q=%22%E3%83%AA%E3%82%B8%E3%82%A7%E3%83%8D%22+OR+%22%E3%83%98%E3%82%A4%E3%82%B9%E3%83%88%22+OR+%22%E3%82%B9%E3%83%AD%E3%82%A6%22&lang=ja&sheet=Action&fields=ja%2Cen%2Cchs&mode=advanced&limit=300"
+  },
+  {
+    "ja": "ヘイスト",
+    "old": "急速",
+    "new": "加速",
+    "english": "Haste",
+    "evidence": "FF14 same Japanese name",
+    "references": [
+      {
+        "id": "744",
+        "chs": "加速",
+        "en": "Haste",
+        "ja": "ヘイスト"
+      },
+      {
+        "id": "402",
+        "chs": "加速",
+        "en": "Haste",
+        "ja": "ヘイスト"
+      },
+      {
+        "id": "309",
+        "chs": "加速",
+        "en": "Haste",
+        "ja": "ヘイスト"
+      }
+    ],
+    "url": "https://strings.ffcafe.cn/api/search?q=%22%E3%83%AA%E3%82%B8%E3%82%A7%E3%83%8D%22+OR+%22%E3%83%98%E3%82%A4%E3%82%B9%E3%83%88%22+OR+%22%E3%82%B9%E3%83%AD%E3%82%A6%22&lang=ja&sheet=Action&fields=ja%2Cen%2Cchs&mode=advanced&limit=300"
+  },
+  {
+    "ja": "スロウ",
+    "old": "缓慢",
+    "new": "减速",
+    "english": "Slow",
+    "evidence": "FF14 same Japanese name",
+    "references": [
+      {
+        "id": "1119",
+        "chs": "减速",
+        "en": "Slow",
+        "ja": "スロウ"
+      },
+      {
+        "id": "310",
+        "chs": "减速",
+        "en": "Slow",
+        "ja": "スロウ"
+      },
+      {
+        "id": "22751",
+        "chs": "减速",
+        "en": "Slow",
+        "ja": "スロウ"
+      }
+    ],
+    "url": "https://strings.ffcafe.cn/api/search?q=%22%E3%83%AA%E3%82%B8%E3%82%A7%E3%83%8D%22+OR+%22%E3%83%98%E3%82%A4%E3%82%B9%E3%83%88%22+OR+%22%E3%82%B9%E3%83%AD%E3%82%A6%22&lang=ja&sheet=Action&fields=ja%2Cen%2Cchs&mode=advanced&limit=300"
+  },
+  {
+    "ja": "ドレイン",
+    "old": "吸血",
+    "new": "吸取",
+    "english": "Drain",
+    "evidence": "FF14 same Japanese name",
+    "references": [
+      {
+        "id": "432",
+        "chs": "吸取",
+        "en": "Drain",
+        "ja": "ドレイン"
+      },
+      {
+        "id": "2339",
+        "chs": "吸取",
+        "en": "Drain",
+        "ja": "ドレイン"
+      },
+      {
+        "id": "7564",
+        "chs": "吸取",
+        "en": "Drain",
+        "ja": "ドレイン"
+      }
+    ],
+    "url": "https://strings.ffcafe.cn/api/search?q=%22%E3%83%89%E3%83%AC%E3%82%A4%E3%83%B3%22+OR+%22%E3%82%A2%E3%82%B9%E3%83%94%E3%83%AB%22+OR+%22%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%22&lang=ja&sheet=Action&fields=ja%2Cen%2Cchs&mode=advanced&limit=300"
+  },
+  {
+    "ja": "フレア",
+    "old": "火光",
+    "new": "核爆",
+    "english": "Flare",
+    "evidence": "FF14 same Japanese name",
+    "references": [
+      {
+        "id": "162",
+        "chs": "核爆",
+        "en": "Flare",
+        "ja": "フレア"
+      },
+      {
+        "id": "9216",
+        "chs": "核爆",
+        "en": "Flare",
+        "ja": "フレア"
+      },
+      {
+        "id": "8866",
+        "chs": "核爆",
+        "en": "Flare",
+        "ja": "フレア"
+      }
+    ],
+    "url": "https://strings.ffcafe.cn/api/search?q=%22%E3%83%9B%E3%83%BC%E3%83%AA%E3%83%BC%22+OR+%22%E3%82%A2%E3%83%AB%E3%83%86%E3%83%9E%22+OR+%22%E3%83%95%E3%83%AC%E3%82%A2%22&lang=ja&sheet=Action&fields=ja%2Cen%2Cchs&mode=advanced&limit=300"
+  },
+  {
+    "ja": "ゴブリンパンチ",
+    "old": "哥布林拳",
+    "new": "哥布林乱拳",
+    "english": "Goblin Punch",
+    "evidence": "FF14 same Japanese name",
+    "references": [
+      {
+        "id": "17488",
+        "chs": "哥布林乱拳",
+        "en": "Goblin Punch",
+        "ja": "ゴブリンパンチ"
+      },
+      {
+        "id": "17503",
+        "chs": "哥布林乱拳",
+        "en": "Goblin Punch",
+        "ja": "ゴブリンパンチ"
+      },
+      {
+        "id": "34563",
+        "chs": "哥布林乱拳",
+        "en": "Goblin Punch",
+        "ja": "ゴブリンパンチ"
+      }
+    ],
+    "url": "https://strings.ffcafe.cn/api/search?q=%22%E3%82%B4%E3%83%96%E3%83%AA%E3%83%B3%E3%83%91%E3%83%B3%E3%83%81%22+OR+%22%E3%82%A2%E3%82%AF%E3%82%A2%E3%83%96%E3%83%AC%E3%82%B9%22+OR+%22%E3%83%9E%E3%82%A4%E3%83%B3%E3%83%89%E3%83%96%E3%83%A9%E3%82%B9%E3%83%88%22&lang=ja&sheet=Action&fields=ja%2Cen%2Cchs&mode=advanced&limit=300"
+  },
+  {
+    "ja": "アクアブレス",
+    "old": "流水吐息",
+    "new": "水流吐息",
+    "english": "Aqua Breath",
+    "evidence": "FF14 same Japanese name",
+    "references": [
+      {
+        "id": "2086",
+        "chs": "水流吐息",
+        "en": "Aqua Breath",
+        "ja": "アクアブレス"
+      },
+      {
+        "id": "2193",
+        "chs": "水流吐息",
+        "en": "Aqua Breath",
+        "ja": "アクアブレス"
+      },
+      {
+        "id": "3133",
+        "chs": "水流吐息",
+        "en": "Aqua Breath",
+        "ja": "アクアブレス"
+      }
+    ],
+    "url": "https://strings.ffcafe.cn/api/search?q=%22%E3%82%B4%E3%83%96%E3%83%AA%E3%83%B3%E3%83%91%E3%83%B3%E3%83%81%22+OR+%22%E3%82%A2%E3%82%AF%E3%82%A2%E3%83%96%E3%83%AC%E3%82%B9%22+OR+%22%E3%83%9E%E3%82%A4%E3%83%B3%E3%83%89%E3%83%96%E3%83%A9%E3%82%B9%E3%83%88%22&lang=ja&sheet=Action&fields=ja%2Cen%2Cchs&mode=advanced&limit=300"
+  },
+  {
+    "ja": "ラフディバイド",
+    "old": "强行分离",
+    "new": "粗分斩",
+    "english": "Rough Divide",
+    "evidence": "FF14 same Japanese name",
+    "references": [
+      {
+        "id": "16154",
+        "chs": "粗分斩",
+        "en": "Rough Divide",
+        "ja": "ラフディバイド"
+      },
+      {
+        "id": "16896",
+        "chs": "粗分斩",
+        "en": "Rough Divide",
+        "ja": "ラフディバイド"
+      },
+      {
+        "id": "16804",
+        "chs": "粗分斩",
+        "en": "Rough Divide",
+        "ja": "ラフディバイド"
+      }
+    ],
+    "url": "https://strings.ffcafe.cn/api/search?q=%22%E3%83%A9%E3%83%95%E3%83%87%E3%82%A3%E3%83%90%E3%82%A4%E3%83%89%22+OR+%22%E3%83%96%E3%83%A9%E3%82%B9%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%BE%E3%83%BC%E3%83%B3%22+OR+%22%E3%83%AA%E3%83%99%E3%83%B3%E3%82%B8%E3%83%96%E3%83%A9%E3%82%B9%E3%83%88%22&lang=ja&sheet=Action&fields=ja%2Cen%2Cchs&mode=advanced&limit=300"
+  },
+  {
+    "ja": "ブラスティングゾーン",
+    "old": "燃烧领域",
+    "new": "爆破领域",
+    "english": "Blasting Zone",
+    "evidence": "FF14 same Japanese name",
+    "references": [
+      {
+        "id": "16165",
+        "chs": "爆破领域",
+        "en": "Blasting Zone",
+        "ja": "ブラスティングゾーン"
+      },
+      {
+        "id": "22132",
+        "chs": "爆破领域",
+        "en": "Blasting Zone",
+        "ja": "ブラスティングゾーン"
+      },
+      {
+        "id": "22078",
+        "chs": "爆破领域",
+        "en": "Blasting Zone",
+        "ja": "ブラスティングゾーン"
+      }
+    ],
+    "url": "https://strings.ffcafe.cn/api/search?q=%22%E3%83%A9%E3%83%95%E3%83%87%E3%82%A3%E3%83%90%E3%82%A4%E3%83%89%22+OR+%22%E3%83%96%E3%83%A9%E3%82%B9%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%BE%E3%83%BC%E3%83%B3%22+OR+%22%E3%83%AA%E3%83%99%E3%83%B3%E3%82%B8%E3%83%96%E3%83%A9%E3%82%B9%E3%83%88%22&lang=ja&sheet=Action&fields=ja%2Cen%2Cchs&mode=advanced&limit=300"
+  },
+  {
+    "ja": "つるぎのまい",
+    "old": "剑之舞",
+    "new": "剑舞",
+    "english": "Blade Dance",
+    "evidence": "FF14 same Japanese name",
+    "references": [
+      {
+        "id": "46599",
+        "chs": "剑舞",
+        "en": "Phantom Sword Dance",
+        "ja": "つるぎのまい"
+      }
+    ],
+    "url": "https://strings.ffcafe.cn/api/search?q=%22%E3%81%A4%E3%82%8B%E3%81%8E%E3%81%AE%E3%81%BE%E3%81%84%22+OR+%22%E3%82%8C%E3%82%93%E3%81%9E%E3%81%8F%E3%81%BE%22+OR+%22%E3%81%8B%E3%81%B0%E3%81%86%22&lang=ja&sheet=Action&fields=ja%2Cen%2Cchs&mode=advanced&limit=300"
+  },
+  {
+    "ja": "かばう",
+    "old": "袒护",
+    "new": "保护",
+    "english": "Cover",
+    "evidence": "FF14 same Japanese name",
+    "references": [
+      {
+        "id": "27",
+        "chs": "保护",
+        "en": "Cover",
+        "ja": "かばう"
+      },
+      {
+        "id": "17008",
+        "chs": "保护",
+        "en": "Cover",
+        "ja": "かばう"
+      },
+      {
+        "id": "6693",
+        "chs": "保护",
+        "en": "Cover",
+        "ja": "かばう"
+      }
+    ],
+    "url": "https://strings.ffcafe.cn/api/search?q=%22%E3%81%A4%E3%82%8B%E3%81%8E%E3%81%AE%E3%81%BE%E3%81%84%22+OR+%22%E3%82%8C%E3%82%93%E3%81%9E%E3%81%8F%E3%81%BE%22+OR+%22%E3%81%8B%E3%81%B0%E3%81%86%22&lang=ja&sheet=Action&fields=ja%2Cen%2Cchs&mode=advanced&limit=300"
+  },
+  {
+    "ja": "ヘイスガ",
+    "old": "强急速",
+    "new": "强加速",
+    "english": "Hastega",
+    "evidence": "FF14 same Japanese name",
+    "references": [
+      {
+        "id": "8949",
+        "chs": "强加速",
+        "en": "Haste III",
+        "ja": "ヘイスガ"
+      }
+    ],
+    "url": "https://strings.ffcafe.cn/api/search?q=%22%E3%83%98%E3%82%A4%E3%82%B9%E3%82%AC%22+OR+%22%E3%82%B9%E3%83%AD%E3%82%A6%E3%82%AC%22+OR+%22%E3%82%A8%E3%82%B9%E3%83%8A%E3%82%AC%22&lang=ja&sheet=Action&fields=ja%2Cen%2Cchs&mode=advanced&limit=300"
+  },
+  {
+    "ja": "メガフレア",
+    "old": "百万火光",
+    "new": "百万核爆",
+    "english": "Megaflare",
+    "evidence": "FF14 same Japanese name",
+    "references": [
+      {
+        "id": "2023",
+        "chs": "百万核爆",
+        "en": "Megaflare",
+        "ja": "メガフレア"
+      },
+      {
+        "id": "2994",
+        "chs": "百万核爆",
+        "en": "Megaflare",
+        "ja": "メガフレア"
+      },
+      {
+        "id": "2992",
+        "chs": "百万核爆",
+        "en": "Megaflare",
+        "ja": "メガフレア"
+      }
+    ],
+    "url": "https://strings.ffcafe.cn/api/search?q=%22%E3%83%95%E3%83%AC%E3%82%A2%E5%89%A3%22+OR+%22%E3%83%A1%E3%82%AC%E3%83%95%E3%83%AC%E3%82%A2%22+OR+%22%E3%83%AC%E3%83%99%E3%83%AB%EF%BC%93%E3%83%95%E3%83%AC%E3%82%A2%22&lang=ja&sheet=Action&fields=ja%2Cen%2Cchs&mode=advanced&limit=300"
+  },
+  {
+    "ja": "ルナティックボイス",
+    "old": "狂迷之声",
+    "new": "错乱之声",
+    "english": "Lunatic Voice",
+    "evidence": "FF14 same Japanese name",
+    "references": [
+      {
+        "id": "4992",
+        "chs": "错乱之声",
+        "en": "Lunatic Voice",
+        "ja": "ルナティックボイス"
+      },
+      {
+        "id": "1485",
+        "chs": "错乱之声",
+        "en": "Lunatic Voice",
+        "ja": "ルナティックボイス"
+      }
+    ],
+    "url": "https://strings.ffcafe.cn/api/search?q=%22%E3%83%8E%E3%83%BC%E3%82%B6%E3%83%B3%E3%82%AF%E3%83%AD%E3%82%B9%22+OR+%22%E3%83%AB%E3%83%8A%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%83%9C%E3%82%A4%E3%82%B9%22+OR+%22%E3%83%9F%E3%83%BC%E3%83%AB%E3%82%B9%E3%83%88%E3%83%BC%E3%83%A0%22&lang=ja&sheet=Action&fields=ja%2Cen%2Cchs&mode=advanced&limit=300"
+  },
+  {
+    "ja": "マスタードボム",
+    "old": "芥末炸弹",
+    "new": "芥末爆弹",
+    "english": "Mustard Bomb",
+    "evidence": "FF14 same Japanese name",
+    "references": [
+      {
+        "id": "12935",
+        "chs": "芥末爆弹",
+        "en": "Mustard Bomb",
+        "ja": "マスタードボム"
+      },
+      {
+        "id": "12909",
+        "chs": "芥末爆弹",
+        "en": "Mustard Bomb",
+        "ja": "マスタードボム"
+      },
+      {
+        "id": "25387",
+        "chs": "芥末爆弹",
+        "en": "Mustard Bomb",
+        "ja": "マスタードボム"
+      }
+    ],
+    "url": "https://strings.ffcafe.cn/api/search?q=%22%E3%81%B6%E3%82%93%E3%81%97%E3%82%93%22+OR+%22%E3%81%BF%E3%81%A0%E3%82%8C%E3%81%86%E3%81%A1%22+OR+%22%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%89%E3%83%9C%E3%83%A0%22&lang=ja&sheet=Action&fields=ja%2Cen%2Cchs&mode=advanced&limit=300"
+  },
+  {
+    "ja": "カーバンクル",
+    "old": "卡邦库尔",
+    "new": "宝石兽",
+    "english": "Carbuncle",
+    "evidence": "FF14 same Japanese name",
+    "references": [
+      {
+        "id": "10261",
+        "chs": "宝石兽",
+        "en": "Carbuncle",
+        "ja": "カーバンクル"
+      }
+    ],
+    "url": "https://strings.ffcafe.cn/api/search?q=%22%E3%82%AB%E3%83%BC%E3%83%90%E3%83%B3%E3%82%AF%E3%83%AB%22+OR+%22%E3%82%B5%E3%83%9C%E3%83%86%E3%83%B3%E3%83%80%E3%83%BC%22+OR+%22%E3%83%88%E3%83%B3%E3%83%99%E3%83%AA%22&lang=ja&sheet=BNpcName&fields=ja%2Cen%2Cchs&mode=advanced&limit=300"
+  },
+  {
+    "ja": "サボテンダー",
+    "old": "仙人掌怪",
+    "new": "仙人刺",
+    "english": "Cactuar",
+    "evidence": "FF14 same Japanese name",
+    "references": [
+      {
+        "id": "286",
+        "chs": "仙人刺",
+        "en": "sabotender",
+        "ja": "サボテンダー"
+      },
+      {
+        "id": "12521",
+        "chs": "仙人刺",
+        "en": "sabotender",
+        "ja": "サボテンダー"
+      },
+      {
+        "id": "14428",
+        "chs": "仙人刺",
+        "en": "sabotender",
+        "ja": "サボテンダー"
+      }
+    ],
+    "url": "https://strings.ffcafe.cn/api/search?q=%22%E3%82%AB%E3%83%BC%E3%83%90%E3%83%B3%E3%82%AF%E3%83%AB%22+OR+%22%E3%82%B5%E3%83%9C%E3%83%86%E3%83%B3%E3%83%80%E3%83%BC%22+OR+%22%E3%83%88%E3%83%B3%E3%83%99%E3%83%AA%22&lang=ja&sheet=BNpcName&fields=ja%2Cen%2Cchs&mode=advanced&limit=300"
+  },
+  {
+    "ja": "トンベリ",
+    "old": "提灯怪",
+    "new": "冬贝利",
+    "english": "Tonberry",
+    "evidence": "FF14 same Japanese name",
+    "references": [
+      {
+        "id": "35",
+        "chs": "冬贝利",
+        "en": "tonberry",
+        "ja": "トンベリ"
+      }
+    ],
+    "url": "https://strings.ffcafe.cn/api/search?q=%22%E3%82%AB%E3%83%BC%E3%83%90%E3%83%B3%E3%82%AF%E3%83%AB%22+OR+%22%E3%82%B5%E3%83%9C%E3%83%86%E3%83%B3%E3%83%80%E3%83%BC%22+OR+%22%E3%83%88%E3%83%B3%E3%83%99%E3%83%AA%22&lang=ja&sheet=BNpcName&fields=ja%2Cen%2Cchs&mode=advanced&limit=300"
+  },
+  {
+    "ja": "ボム",
+    "old": "炸弹",
+    "new": "爆弹怪",
+    "english": "Bomb",
+    "evidence": "FF14 same Japanese name",
+    "references": [
+      {
+        "id": "316",
+        "chs": "爆弹怪",
+        "en": "bomb",
+        "ja": "ボム"
+      },
+      {
+        "id": "13621",
+        "chs": "爆弹怪",
+        "en": "bomb",
+        "ja": "ボム"
+      }
+    ],
+    "url": "https://strings.ffcafe.cn/api/search?q=%22%E3%82%AF%E3%82%A2%E3%83%BC%E3%83%AB%22+OR+%22%E3%82%AA%E3%83%81%E3%83%A5%E3%83%BC%22+OR+%22%E3%83%9C%E3%83%A0%22&lang=ja&sheet=BNpcName&fields=ja%2Cen%2Cchs&mode=advanced&limit=300"
+  },
+  {
+    "ja": "マンドラゴラ",
+    "old": "曼陀罗",
+    "new": "蔓德拉",
+    "english": "Mandragora",
+    "evidence": "FF14 same Japanese name",
+    "references": [
+      {
+        "id": "107",
+        "chs": "蔓德拉",
+        "en": "mandragora",
+        "ja": "マンドラゴラ"
+      },
+      {
+        "id": "14418",
+        "chs": "蔓德拉",
+        "en": "mandragora",
+        "ja": "マンドラゴラ"
+      }
+    ],
+    "url": "https://strings.ffcafe.cn/api/search?q=%22%E3%83%9E%E3%83%B3%E3%83%89%E3%83%A9%E3%82%B4%E3%83%A9%22+OR+%22%E3%83%90%E3%82%B8%E3%83%AA%E3%82%B9%E3%82%AF%22+OR+%22%E3%82%B0%E3%83%AC%E3%83%A0%E3%83%AA%E3%83%B3%22&lang=ja&sheet=BNpcName&fields=ja%2Cen%2Cchs&mode=advanced&limit=300"
+  },
+  {
+    "ja": "バジリスク",
+    "old": "石化翼蜥",
+    "new": "石蜥蜴",
+    "english": "Basilisk",
+    "evidence": "FF14 same Japanese name",
+    "references": [
+      {
+        "id": "304",
+        "chs": "石蜥蜴",
+        "en": "basilisk",
+        "ja": "バジリスク"
+      }
+    ],
+    "url": "https://strings.ffcafe.cn/api/search?q=%22%E3%83%9E%E3%83%B3%E3%83%89%E3%83%A9%E3%82%B4%E3%83%A9%22+OR+%22%E3%83%90%E3%82%B8%E3%83%AA%E3%82%B9%E3%82%AF%22+OR+%22%E3%82%B0%E3%83%AC%E3%83%A0%E3%83%AA%E3%83%B3%22&lang=ja&sheet=BNpcName&fields=ja%2Cen%2Cchs&mode=advanced&limit=300"
+  },
+  {
+    "ja": "ミニテンダー",
+    "old": "小仙人掌",
+    "new": "幼小仙人掌",
+    "english": "Minituar",
+    "evidence": "FF14 same Japanese name",
+    "references": [
+      {
+        "id": "11553",
+        "chs": "幼小仙人掌",
+        "en": "cactuar cutting",
+        "ja": "ミニテンダー"
+      }
+    ],
+    "url": "https://strings.ffcafe.cn/api/search?q=%22%E3%83%9F%E3%83%8B%E3%83%86%E3%83%B3%E3%83%80%E3%83%BC%22+OR+%22%E3%82%AD%E3%83%9E%E3%82%A4%E3%83%A9%22+OR+%22%E3%83%89%E3%83%AB%E3%83%A0%E3%82%AD%E3%83%9E%E3%82%A4%E3%83%A9%22&lang=ja&sheet=BNpcName&fields=ja%2Cen%2Cchs&mode=advanced&limit=300"
+  },
+  {
+    "ja": "マザーボム",
+    "old": "炸弹之母",
+    "new": "爆弹之母",
+    "english": "Mom Bomb",
+    "evidence": "FF14 same Japanese name",
+    "references": [
+      {
+        "id": "4575",
+        "chs": "爆弹之母",
+        "en": "Progenitrix",
+        "ja": "マザーボム"
+      }
+    ],
+    "url": "https://strings.ffcafe.cn/api/search?q=%22%E3%83%9E%E3%82%B6%E3%83%BC%E3%83%9C%E3%83%A0%22+OR+%22%E3%83%95%E3%82%A1%E3%82%B6%E3%83%BC%E3%83%9C%E3%83%A0%22+OR+%22%E3%83%9C%E3%83%A0%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%88%22&lang=ja&sheet=BNpcName&fields=ja%2Cen%2Cchs&mode=advanced&limit=300"
+  },
+  {
+    "ja": "ファザーボム",
+    "old": "炸弹之父",
+    "new": "爆弹之父",
+    "english": "Dad Bomb",
+    "evidence": "FF14 same Japanese name",
+    "references": [
+      {
+        "id": "4576",
+        "chs": "爆弹之父",
+        "en": "Progenitor",
+        "ja": "ファザーボム"
+      }
+    ],
+    "url": "https://strings.ffcafe.cn/api/search?q=%22%E3%83%9E%E3%82%B6%E3%83%BC%E3%83%9C%E3%83%A0%22+OR+%22%E3%83%95%E3%82%A1%E3%82%B6%E3%83%BC%E3%83%9C%E3%83%A0%22+OR+%22%E3%83%9C%E3%83%A0%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%88%22&lang=ja&sheet=BNpcName&fields=ja%2Cen%2Cchs&mode=advanced&limit=300"
+  },
+  {
+    "ja": "エーテル",
+    "old": "以太",
+    "new": "以太药",
+    "english": "Ether",
+    "evidence": "FF14 same Japanese name",
+    "references": [
+      {
+        "id": "4555",
+        "chs": "以太药",
+        "en": "vial of ether",
+        "ja": "エーテル"
+      }
+    ],
+    "url": "https://strings.ffcafe.cn/api/search?q=%22%E3%82%A8%E3%83%BC%E3%83%86%E3%83%AB%22+OR+%22%E3%82%A8%E3%83%AA%E3%82%AF%E3%82%B5%E3%83%BC%22+OR+%22%E3%83%A9%E3%82%B9%E3%83%88%E3%82%A8%E3%83%AA%E3%82%AF%E3%82%B5%E3%83%BC%22&lang=ja&sheet=Item&fields=ja%2Cen%2Cchs&mode=advanced&limit=300"
+  },
+  {
+    "ja": "再生",
+    "old": "再生",
+    "new": "苏生",
+    "english": "Revive",
+    "evidence": "FF14 English-name equivalent; Japanese differs; enemy resurrection context checked",
+    "references": [
+      {
+        "id": "41634",
+        "chs": "苏生",
+        "en": "Revive",
+        "ja": "そせい"
+      }
+    ],
+    "url": "https://strings.ffcafe.cn/api/search?q=%22Revive%22&lang=en&sheet=Action&fields=ja%2Cen%2Cchs&mode=advanced&limit=100",
+    "only_keys": [
+      "SkillName501870",
+      "SkillName501920"
+    ]
+  }
+]

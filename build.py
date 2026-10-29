@@ -6,6 +6,7 @@ from pathlib import Path
 import shutil
 import subprocess
 import tempfile
+import zipfile
 from locres_v3 import Locres
 
 ROOT = Path(__file__).resolve().parent
@@ -63,9 +64,24 @@ def build(args):
     manifest = {k: config[k] for k in ['version','culture','resource','original_resource_sha256','supported_retail_exe_sha256','pak_filename','upgrade_from_pak_sha256'] if k in config}
     manifest.update({'pak_sha256':sha(pak.read_bytes()), 'patched_resource_sha256':sha(patched), 'total_entries':len(source.entries), 'changed_entries':len(changed), 'unchanged_entries':len(source.entries)-len(changed)})
     manifest['files'] = {p.name: sha(p.read_bytes()) for p in sorted(payload.iterdir())}
+    manifest['retailExeSha256'] = manifest['supported_retail_exe_sha256']
+    manifest['managedFiles'] = {'FFRS/Content/Paks/~mods/'+name:value for name,value in manifest['files'].items()}
+    manifest['acceptedExisting'] = {key:[value] for key,value in manifest['managedFiles'].items()}
+    for name,values in config.get('upgrade_from_files',{}).items():
+        key='FFRS/Content/Paks/~mods/'+name
+        if key in manifest['acceptedExisting']:manifest['acceptedExisting'][key]=list(dict.fromkeys(manifest['acceptedExisting'][key]+values))
+    pak_key='FFRS/Content/Paks/~mods/'+config['pak_filename']
+    manifest['acceptedExisting'][pak_key]=list(dict.fromkeys(manifest['acceptedExisting'][pak_key]+config.get('upgrade_from_pak_sha256',[])))
     manifest['iostore_engine_version'] = 'UE5_6'
     (target / 'package.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
     (target / 'changes.json').write_text(json.dumps(config['changes'],ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    if (ROOT/'LICENSE').exists():shutil.copy2(ROOT/'LICENSE',target/'LICENSE')
+    (target/'SHA256SUMS.txt').write_text(''.join(f'{sha(p.read_bytes())}  {p.relative_to(target).as_posix()}\n' for p in sorted(target.rglob('*')) if p.is_file()),encoding='utf-8')
+    archive=target.with_name(target.name+'.zip')
+    with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
+        for p in sorted(target.rglob('*')):
+            if p.is_file():z.write(p,p.relative_to(target).as_posix())
+    archive.with_name(archive.name+'.sha256').write_text(f'{sha(archive.read_bytes())}  {archive.name}\n',encoding='ascii')
     print(json.dumps(manifest,indent=2))
 
 if __name__ == '__main__':

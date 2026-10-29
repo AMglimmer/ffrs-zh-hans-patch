@@ -1,11 +1,27 @@
 {
-  "version": "0.2.1",
+  "version": "0.3.0",
   "culture": "zh-Hans",
   "resource": "FFRS/Content/Localization/Game/zh-Hans/Game.locres",
   "original_resource_sha256": "a47d0b59bd2549b837718a52eb5a832a9ce6c18bed721e2414fca6d2b15d85ae",
   "supported_retail_exe_sha256": "b8c588e46ebadbe37feca7bdf2da0ae63a8538099d14a53ec0c2241b086e5ffa",
   "pak_filename": "FFRS-FlareZhHans_99_P.pak",
   "changes": [
+    {
+      "namespace": "ST_BtlAI",
+      "key": "BtlAI0042",
+      "source_hash": "9e786018",
+      "old": "炸弹之父正在积蓄怒气……",
+      "new": "爆弹之父正在积蓄怒气……",
+      "english": "Dad Bomb is internalizing his anger..."
+    },
+    {
+      "namespace": "ST_BtlAI",
+      "key": "BtlAI0044",
+      "source_hash": "c03b1f04",
+      "old": "炸弹之父的怒气已蓄满！",
+      "new": "爆弹之父的怒气已蓄满！",
+      "english": "Dad Bomb has had enough!"
+    },
     {
       "namespace": "ST_C01_001_06",
       "key": "001_06_007",
@@ -15,68 +31,12 @@
       "english": "Megaflare!"
     },
     {
-      "namespace": "ST_ChrEv_2280_005_01",
-      "key": "ChrEv_2280_005_01_017",
-      "source_hash": "55ac187b",
-      "old": "天啊……\r\n明明她正在教我怎么施放火光的！",
-      "new": "天啊……\r\n明明她正在教我怎么施放核爆的！",
-      "english": "Yeah... And she was just about to teach me how to cast Flare!"
-    },
-    {
-      "namespace": "ST_SkillName",
-      "key": "SkillName220330",
-      "source_hash": "28b56eed",
-      "old": "火光",
-      "new": "核爆",
-      "english": "Flare"
-    },
-    {
-      "namespace": "ST_SkillName",
-      "key": "SkillName250330",
-      "source_hash": "28b56eed",
-      "old": "火光",
-      "new": "核爆",
-      "english": "Flare"
-    },
-    {
-      "namespace": "ST_SkillName",
-      "key": "SkillName420270",
-      "source_hash": "adb4f0e7",
-      "old": "火光剑",
-      "new": "核爆剑",
-      "english": "Flare Blade"
-    },
-    {
-      "namespace": "ST_SkillName",
-      "key": "SkillName300110",
-      "source_hash": "68a611f6",
-      "old": "百万火光",
-      "new": "百万核爆",
-      "english": "Megaflare"
-    },
-    {
-      "namespace": "ST_SkillName",
-      "key": "SkillName505820",
-      "source_hash": "68a611f6",
-      "old": "百万火光",
-      "new": "百万核爆",
-      "english": "Megaflare"
-    },
-    {
-      "namespace": "ST_SkillName",
-      "key": "SkillName500840",
-      "source_hash": "6f87f276",
-      "old": "3级火光",
-      "new": "3级核爆",
-      "english": "Level 3 Flare"
-    },
-    {
-      "namespace": "ST_UnitTrait01",
-      "key": "Trait_01_458",
-      "source_hash": "f6723ede",
-      "old": "倒计时到0时就会施放百万火光",
-      "new": "倒计时到0时就会施放百万核爆",
-      "english": "Unleashes Megaflare each time the countdown reaches zero."
+      "namespace": "ST_C01_Town_01Gra_05",
+      "key": "Town_01Gra_05_055",
+      "source_hash": "f4ab9a68",
+      "old": "如果当时的以太是高级以太，\r\n我就不会输了……",
+      "new": "如果当时的以太药是高级以太药，\r\n我就不会输了……",
+      "english": "Dammit... I <text style=\"italic\">ethered</> when I should’ve <text style=\"italic\">turbo ethered</>. I would’ve had the fight if I did."
     },
     {
       "namespace": "ST_C03_306_01",
@@ -87,12 +47,12 @@
       "english": "Yes, if I’m being honest, it is as you say. We’re stretched thin like a flattened flan. Right now, we need all the help we can get."
     },
     {
-      "namespace": "ST_CharaName",
-      "key": "CharaName0252",
-      "source_hash": "6e8d06c8",
-      "old": "稳重的莫古利",
-      "new": "稳重的莫古力",
-      "english": "Leisurely Moogle"
+      "namespace": "ST_C06_619_01A",
+      "key": "619_01A_004",
+      "source_hash": "a2c7fe6a",
+      "old": "原来如此。\r\n那是炸弹的一种吧。\r\n必杀技……也就是要我们小心爆炸吧。",
+      "new": "原来如此。\r\n那是爆弹怪的一种吧。\r\n必杀技……也就是要我们小心爆炸吧。",
+      "english": "I see where this is going. That looks like the buff brother of a bomb, so the “deadly blow” part is telling us to watch out for its explosion."
     },
     {
       "namespace": "ST_CharaName",
@@ -104,6 +64,22 @@
     },
     {
       "namespace": "ST_CharaName",
+      "key": "CharaName0179",
+      "source_hash": "eeaed1b1",
+      "old": "光明莫古利",
+      "new": "光明莫古力",
+      "english": "Moogle of Light"
+    },
+    {
+      "namespace": "ST_CharaName",
+      "key": "CharaName0218",
+      "source_hash": "668835f1",
+      "old": "卡邦库尔",
+      "new": "宝石兽",
+      "english": "Carbuncle"
+    },
+    {
+      "namespace": "ST_CharaName",
       "key": "CharaName0251",
       "source_hash": "dd8eb594",
       "old": "活泼的莫古利",
@@ -112,11 +88,11 @@
     },
     {
       "namespace": "ST_CharaName",
-      "key": "CharaName0179",
-      "source_hash": "eeaed1b1",
-      "old": "光明莫古利",
-      "new": "光明莫古力",
-      "english": "Moogle of Light"
+      "key": "CharaName0252",
+      "source_hash": "6e8d06c8",
+      "old": "稳重的莫古利",
+      "new": "稳重的莫古力",
+      "english": "Leisurely Moogle"
     },
     {
       "namespace": "ST_CharaName",
@@ -143,12 +119,940 @@
       "english": "Moogle overlords? I’m not sure if I would’ve welcomed them..."
     },
     {
-      "namespace": "ST_SubEv_C01_Moogle_01",
-      "key": "SubEv_C01_Moogle_01_019",
-      "source_hash": "c8af2987",
-      "old": "嗯，我知道了。\r\n光明莫古利，以后也要麻烦你啦。",
-      "new": "嗯，我知道了。\r\n光明莫古力，以后也要麻烦你啦。",
-      "english": "You got it. Thanks, moogle light. Counting on you."
+      "namespace": "ST_ChrEv_2280_005_01",
+      "key": "ChrEv_2280_005_01_017",
+      "source_hash": "55ac187b",
+      "old": "天啊……\r\n明明她正在教我怎么施放火光的！",
+      "new": "天啊……\r\n明明她正在教我怎么施放核爆的！",
+      "english": "Yeah... And she was just about to teach me how to cast Flare!"
+    },
+    {
+      "namespace": "ST_ConsumablesName",
+      "key": "ConsumablesName18",
+      "source_hash": "7444c103",
+      "old": "特级以太",
+      "new": "特级以太药",
+      "english": "X-Ether"
+    },
+    {
+      "namespace": "ST_ConsumablesName",
+      "key": "ConsumablesName18_det_pl",
+      "source_hash": "7444c103",
+      "old": "特级以太",
+      "new": "特级以太药",
+      "english": "x-ethers"
+    },
+    {
+      "namespace": "ST_ConsumablesName",
+      "key": "ConsumablesName18_det_sg",
+      "source_hash": "7444c103",
+      "old": "特级以太",
+      "new": "特级以太药",
+      "english": "an x-ether"
+    },
+    {
+      "namespace": "ST_ConsumablesName",
+      "key": "ConsumablesName18_pl",
+      "source_hash": "7444c103",
+      "old": "特级以太",
+      "new": "特级以太药",
+      "english": "x-ethers"
+    },
+    {
+      "namespace": "ST_ConsumablesName",
+      "key": "ConsumablesName18_sg",
+      "source_hash": "7444c103",
+      "old": "特级以太",
+      "new": "特级以太药",
+      "english": "x-ether"
+    },
+    {
+      "namespace": "ST_ConsumablesName",
+      "key": "ConsumablesName20",
+      "source_hash": "ab35f9f2",
+      "old": "高级以太",
+      "new": "高级以太药",
+      "english": "Turbo Ether"
+    },
+    {
+      "namespace": "ST_ConsumablesName",
+      "key": "ConsumablesName20_det_pl",
+      "source_hash": "ab35f9f2",
+      "old": "高级以太",
+      "new": "高级以太药",
+      "english": "turbo ethers"
+    },
+    {
+      "namespace": "ST_ConsumablesName",
+      "key": "ConsumablesName20_det_sg",
+      "source_hash": "ab35f9f2",
+      "old": "高级以太",
+      "new": "高级以太药",
+      "english": "a turbo ether"
+    },
+    {
+      "namespace": "ST_ConsumablesName",
+      "key": "ConsumablesName20_pl",
+      "source_hash": "ab35f9f2",
+      "old": "高级以太",
+      "new": "高级以太药",
+      "english": "turbo ethers"
+    },
+    {
+      "namespace": "ST_ConsumablesName",
+      "key": "ConsumablesName20_sg",
+      "source_hash": "ab35f9f2",
+      "old": "高级以太",
+      "new": "高级以太药",
+      "english": "turbo ether"
+    },
+    {
+      "namespace": "ST_ConsumablesName",
+      "key": "ConsumablesName3",
+      "source_hash": "409fc380",
+      "old": "以太",
+      "new": "以太药",
+      "english": "Ether"
+    },
+    {
+      "namespace": "ST_ConsumablesName",
+      "key": "ConsumablesName34",
+      "source_hash": "011edd9e",
+      "old": "魔雾以太",
+      "new": "魔雾以太药",
+      "english": "Mist Ether"
+    },
+    {
+      "namespace": "ST_ConsumablesName",
+      "key": "ConsumablesName34_det_pl",
+      "source_hash": "011edd9e",
+      "old": "魔雾以太",
+      "new": "魔雾以太药",
+      "english": "mist ethers"
+    },
+    {
+      "namespace": "ST_ConsumablesName",
+      "key": "ConsumablesName34_det_sg",
+      "source_hash": "011edd9e",
+      "old": "魔雾以太",
+      "new": "魔雾以太药",
+      "english": "a mist ether"
+    },
+    {
+      "namespace": "ST_ConsumablesName",
+      "key": "ConsumablesName34_pl",
+      "source_hash": "011edd9e",
+      "old": "魔雾以太",
+      "new": "魔雾以太药",
+      "english": "mist ethers"
+    },
+    {
+      "namespace": "ST_ConsumablesName",
+      "key": "ConsumablesName34_sg",
+      "source_hash": "011edd9e",
+      "old": "魔雾以太",
+      "new": "魔雾以太药",
+      "english": "mist ether"
+    },
+    {
+      "namespace": "ST_ConsumablesName",
+      "key": "ConsumablesName35",
+      "source_hash": "72b25da6",
+      "old": "魔雾高级以太",
+      "new": "魔雾高级以太药",
+      "english": "Mist Turbo Ether"
+    },
+    {
+      "namespace": "ST_ConsumablesName",
+      "key": "ConsumablesName35_det_pl",
+      "source_hash": "72b25da6",
+      "old": "魔雾高级以太",
+      "new": "魔雾高级以太药",
+      "english": "mist turbo ethers"
+    },
+    {
+      "namespace": "ST_ConsumablesName",
+      "key": "ConsumablesName35_det_sg",
+      "source_hash": "72b25da6",
+      "old": "魔雾高级以太",
+      "new": "魔雾高级以太药",
+      "english": "a mist turbo ether"
+    },
+    {
+      "namespace": "ST_ConsumablesName",
+      "key": "ConsumablesName35_pl",
+      "source_hash": "72b25da6",
+      "old": "魔雾高级以太",
+      "new": "魔雾高级以太药",
+      "english": "mist turbo ethers"
+    },
+    {
+      "namespace": "ST_ConsumablesName",
+      "key": "ConsumablesName35_sg",
+      "source_hash": "72b25da6",
+      "old": "魔雾高级以太",
+      "new": "魔雾高级以太药",
+      "english": "mist turbo ether"
+    },
+    {
+      "namespace": "ST_ConsumablesName",
+      "key": "ConsumablesName36",
+      "source_hash": "6597c8b6",
+      "old": "魔雾特级以太",
+      "new": "魔雾特级以太药",
+      "english": "Mist X-Ether"
+    },
+    {
+      "namespace": "ST_ConsumablesName",
+      "key": "ConsumablesName36_det_pl",
+      "source_hash": "6597c8b6",
+      "old": "魔雾特级以太",
+      "new": "魔雾特级以太药",
+      "english": "mist x-ethers"
+    },
+    {
+      "namespace": "ST_ConsumablesName",
+      "key": "ConsumablesName36_det_sg",
+      "source_hash": "6597c8b6",
+      "old": "魔雾特级以太",
+      "new": "魔雾特级以太药",
+      "english": "a mist x-ether"
+    },
+    {
+      "namespace": "ST_ConsumablesName",
+      "key": "ConsumablesName36_pl",
+      "source_hash": "6597c8b6",
+      "old": "魔雾特级以太",
+      "new": "魔雾特级以太药",
+      "english": "mist x-ethers"
+    },
+    {
+      "namespace": "ST_ConsumablesName",
+      "key": "ConsumablesName36_sg",
+      "source_hash": "6597c8b6",
+      "old": "魔雾特级以太",
+      "new": "魔雾特级以太药",
+      "english": "mist x-ether"
+    },
+    {
+      "namespace": "ST_ConsumablesName",
+      "key": "ConsumablesName3_det_pl",
+      "source_hash": "409fc380",
+      "old": "以太",
+      "new": "以太药",
+      "english": "ethers"
+    },
+    {
+      "namespace": "ST_ConsumablesName",
+      "key": "ConsumablesName3_det_sg",
+      "source_hash": "409fc380",
+      "old": "以太",
+      "new": "以太药",
+      "english": "an ether"
+    },
+    {
+      "namespace": "ST_ConsumablesName",
+      "key": "ConsumablesName3_pl",
+      "source_hash": "409fc380",
+      "old": "以太",
+      "new": "以太药",
+      "english": "ethers"
+    },
+    {
+      "namespace": "ST_ConsumablesName",
+      "key": "ConsumablesName3_sg",
+      "source_hash": "409fc380",
+      "old": "以太",
+      "new": "以太药",
+      "english": "ether"
+    },
+    {
+      "namespace": "ST_EquipmentDescription",
+      "key": "EquipmentDescription10225",
+      "source_hash": "c51f7eca",
+      "old": "战斗开始时，获得3回合急速状态",
+      "new": "战斗开始时，获得3回合加速状态",
+      "english": "Grants Haste for 3 turns at the start of battle."
+    },
+    {
+      "namespace": "ST_EquipmentDescription",
+      "key": "EquipmentDescription10230",
+      "source_hash": "6e2c6a67",
+      "old": "使用“战斗”或特技时，有一定几率附加“缓慢”效果",
+      "new": "使用“战斗”或特技时，有一定几率附加“减速”效果",
+      "english": "Adds a chance to inflict Slow when using a standard attack or a battle skill."
+    },
+    {
+      "namespace": "ST_EquipmentDescription",
+      "key": "EquipmentDescription10418",
+      "source_hash": "25010d5c",
+      "old": "生命值降到一半以下时，会自动处于渐愈状态",
+      "new": "生命值降到一半以下时，会自动处于再生状态",
+      "english": "Grants constant Regen when at less than half of max HP."
+    },
+    {
+      "namespace": "ST_EquipmentDescription",
+      "key": "EquipmentDescription10719",
+      "source_hash": "744316fa",
+      "old": "战斗开始时，对随机敌人施展缓慢",
+      "new": "战斗开始时，对随机敌人施展减速",
+      "english": "Inflicts Slow on a random enemy at the start of battle."
+    },
+    {
+      "namespace": "ST_EquipmentDescription",
+      "key": "EquipmentDescription11029",
+      "source_hash": "744316fa",
+      "old": "战斗开始时，对随机敌人施展缓慢",
+      "new": "战斗开始时，对随机敌人施展减速",
+      "english": "Inflicts Slow on a random enemy at the start of battle."
+    },
+    {
+      "namespace": "ST_EquipmentDescription",
+      "key": "EquipmentDescription11513",
+      "source_hash": "25010d5c",
+      "old": "生命值降到一半以下时，会自动处于渐愈状态",
+      "new": "生命值降到一半以下时，会自动处于再生状态",
+      "english": "Grants constant Regen when at less than half of max HP."
+    },
+    {
+      "namespace": "ST_EquipmentDescription",
+      "key": "EquipmentDescription12014",
+      "source_hash": "9b5cdab2",
+      "old": "随时处于急速状态",
+      "new": "随时处于加速状态",
+      "english": "Grants constant Haste."
+    },
+    {
+      "namespace": "ST_EquipmentDescription",
+      "key": "EquipmentDescription12015",
+      "source_hash": "115310ab",
+      "old": "随时处于缓慢状态",
+      "new": "随时处于减速状态",
+      "english": "Grants constant Slow."
+    },
+    {
+      "namespace": "ST_EquipmentDescription",
+      "key": "EquipmentDescription12017",
+      "source_hash": "5c856784",
+      "old": "随时处于渐愈状态",
+      "new": "随时处于再生状态",
+      "english": "Grants constant Regen."
+    },
+    {
+      "namespace": "ST_EventDialog",
+      "key": "EventDialog_028",
+      "source_hash": "4d946dff",
+      "old": "可以召唤卡邦库尔了！",
+      "new": "可以召唤宝石兽了！",
+      "english": "You can now summon Carbuncle!"
+    },
+    {
+      "namespace": "ST_EventDialog",
+      "key": "EventDialog_057",
+      "source_hash": "b0aae804",
+      "old": "召唤卡邦库尔",
+      "new": "召唤宝石兽",
+      "english": "Esper: Carbuncle"
+    },
+    {
+      "namespace": "ST_FEV_Town_07Mys_01",
+      "key": "FEV_Town_07Mys_01_076",
+      "source_hash": "6885b30c",
+      "old": "恢、恢、恢复药♪恢恢、恢复药♪\r\n只要用心熬煮，哎呀真神奇～♪\r\n有布丁、炸弹和冥鬼之眼～♪",
+      "new": "恢、恢、恢复药♪恢恢、恢复药♪\r\n只要用心熬煮，哎呀真神奇～♪\r\n有布丁、爆弹怪和冥鬼之眼～♪",
+      "english": "<text style=\"italic\">Tor-sion mo-tion, mix them up and see—</>\r\n<text style=\"italic\">Po-tion, po-tion, a wonderful sight, a glee—</>\r\n<text style=\"italic\">Down-a-portion, and victorious you’ll be!</>"
+    },
+    {
+      "namespace": "ST_PassiveSkillDescription",
+      "key": "PassiveSkillDescription1074",
+      "source_hash": "9b5cdab2",
+      "old": "随时处于急速状态",
+      "new": "随时处于加速状态",
+      "english": "Grants constant Haste."
+    },
+    {
+      "namespace": "ST_PassiveSkillDescription",
+      "key": "PassiveSkillDescription1075",
+      "source_hash": "115310ab",
+      "old": "随时处于缓慢状态",
+      "new": "随时处于减速状态",
+      "english": "Grants constant Slow."
+    },
+    {
+      "namespace": "ST_PassiveSkillDescription",
+      "key": "PassiveSkillDescription1077",
+      "source_hash": "5c856784",
+      "old": "随时处于渐愈状态",
+      "new": "随时处于再生状态",
+      "english": "Grants constant Regen."
+    },
+    {
+      "namespace": "ST_PassiveSkillDescription",
+      "key": "PassiveSkillDescription1116",
+      "source_hash": "e8d76b81",
+      "old": "完全免疫缓慢效果",
+      "new": "完全免疫减速效果",
+      "english": "Prevents Slow."
+    },
+    {
+      "namespace": "ST_PassiveSkillDescription",
+      "key": "PassiveSkillDescription1129",
+      "source_hash": "e7f79bd5",
+      "old": "使用“战斗”及特技时，有几率附加缓慢效果",
+      "new": "使用“战斗”及特技时，有几率附加减速效果",
+      "english": "Adds a chance to inflict Slow when using a standard attack or a battle skill."
+    },
+    {
+      "namespace": "ST_PassiveSkillDescription",
+      "key": "PassiveSkillDescription1286",
+      "source_hash": "2d35cad1",
+      "old": "令敌人破防时，获得3回合渐愈状态",
+      "new": "令敌人破防时，获得3回合再生状态",
+      "english": "Grants Regen for 3 turns upon staggering an enemy."
+    },
+    {
+      "namespace": "ST_PassiveSkillDescription",
+      "key": "PassiveSkillDescription1287",
+      "source_hash": "50bf4986",
+      "old": "令敌人破防时，获得3回合的急速状态",
+      "new": "令敌人破防时，获得3回合的加速状态",
+      "english": "Grants Haste for 3 turns upon staggering an enemy."
+    },
+    {
+      "namespace": "ST_PassiveSkillDescription",
+      "key": "PassiveSkillDescription1292",
+      "source_hash": "23802a1b",
+      "old": "战斗开始时，获得{Effect1Turn}回合急速状态",
+      "new": "战斗开始时，获得{Effect1Turn}回合加速状态",
+      "english": "Grants Haste for {Effect1Turn} {Effect1Turn}|plural(one=turn, other=turns) at the start of battle."
+    },
+    {
+      "namespace": "ST_PassiveSkillDescription",
+      "key": "PassiveSkillDescription1293",
+      "source_hash": "5e0aa94c",
+      "old": "战斗开始时，获得{Effect1Turn}回合渐愈状态",
+      "new": "战斗开始时，获得{Effect1Turn}回合再生状态",
+      "english": "Grants Regen for {Effect1Turn} {Effect1Turn}|plural(one=turn, other=turns) at the start of battle."
+    },
+    {
+      "namespace": "ST_PassiveSkillDescription",
+      "key": "PassiveSkillDescription1298",
+      "source_hash": "744316fa",
+      "old": "战斗开始时，对随机敌人施展“缓慢“",
+      "new": "战斗开始时，对随机敌人施展“减速“",
+      "english": "Inflicts Slow on a random enemy at the start of battle."
+    },
+    {
+      "namespace": "ST_PassiveSkillDescription",
+      "key": "PassiveSkillDescription1301",
+      "source_hash": "588b8e0b",
+      "old": "生命值降到一半以下时，会自动处于急速状态",
+      "new": "生命值降到一半以下时，会自动处于加速状态",
+      "english": "Grants constant Haste when at less than half of max HP."
+    },
+    {
+      "namespace": "ST_PassiveSkillDescription",
+      "key": "PassiveSkillDescription1302",
+      "source_hash": "25010d5c",
+      "old": "生命值降到一半以下时，会自动处于渐愈状态",
+      "new": "生命值降到一半以下时，会自动处于再生状态",
+      "english": "Grants constant Regen when at less than half of max HP."
+    },
+    {
+      "namespace": "ST_PassiveSkillDescription",
+      "key": "PassiveSkillDescription1305",
+      "source_hash": "a3afa08b",
+      "old": "自身陷入状态异常时，自动使用“复原”或万能药进行治疗",
+      "new": "自身陷入状态异常时，自动使用“康复”或万能药进行治疗",
+      "english": "Automatically uses Esuna or a remedy when inflicted with a status ailment."
+    },
+    {
+      "namespace": "ST_PassiveSkillDescription",
+      "key": "PassiveSkillDescription1413",
+      "source_hash": "3feffa50",
+      "old": "“袒护”发动时，物理与魔法防御提升{Effect1Param2}%",
+      "new": "“保护”发动时，物理与魔法防御提升{Effect1Param2}%",
+      "english": "Increases physical and magic defense by {Effect1Param2}% when Cover is activated."
+    },
+    {
+      "namespace": "ST_PassiveSkillDescription",
+      "key": "PassiveSkillDescription1444",
+      "source_hash": "4a992911",
+      "old": "攻击目标处在“弱守”、“弱心”、“缓慢”状态时，双枪手发动的几率变成3倍",
+      "new": "攻击目标处在“弱守”、“弱心”、“减速”状态时，双枪手发动的几率变成3倍",
+      "english": "Triples the chance of activating Dual Guns when the target is afflicted with Deprotect, Deshell, or Slow."
+    },
+    {
+      "namespace": "ST_PassiveSkillDescription",
+      "key": "PassiveSkillDescription1448",
+      "source_hash": "a72435d8",
+      "old": "处于急速状态的我方成员越多，卡米尔的招式伤害越高",
+      "new": "处于加速状态的我方成员越多，卡米尔的招式伤害越高",
+      "english": "Increases damage dealt by Camille’s skills. Damage scales with the number of allies under the effect of Haste."
+    },
+    {
+      "namespace": "ST_PassiveSkillDescription",
+      "key": "PassiveSkillDescription1449",
+      "source_hash": "6136bf71",
+      "old": "比所有的敌人都更快发动攻击时，对随机1名我方成员施加“急速”效果",
+      "new": "比所有的敌人都更快发动攻击时，对随机1名我方成员施加“加速”效果",
+      "english": "When attacking before any enemies attack, grants Haste to a random ally."
+    },
+    {
+      "namespace": "ST_PassiveSkillName",
+      "key": "PassiveSkillName1074",
+      "source_hash": "bb23de39",
+      "old": "随时急速",
+      "new": "随时加速",
+      "english": "Auto-Haste"
+    },
+    {
+      "namespace": "ST_PassiveSkillName",
+      "key": "PassiveSkillName1075",
+      "source_hash": "6a524572",
+      "old": "随时缓慢",
+      "new": "随时减速",
+      "english": "Auto-Slow"
+    },
+    {
+      "namespace": "ST_PassiveSkillName",
+      "key": "PassiveSkillName1077",
+      "source_hash": "9a66cdef",
+      "old": "随时渐愈",
+      "new": "随时再生",
+      "english": "Auto-Regen"
+    },
+    {
+      "namespace": "ST_PassiveSkillName",
+      "key": "PassiveSkillName1116",
+      "source_hash": "3c151be3",
+      "old": "缓慢无效",
+      "new": "减速无效",
+      "english": "Nullify Slow"
+    },
+    {
+      "namespace": "ST_PassiveSkillName",
+      "key": "PassiveSkillName1129",
+      "source_hash": "1afc7605",
+      "old": "顺手缓慢",
+      "new": "顺手减速",
+      "english": "Add Slow"
+    },
+    {
+      "namespace": "ST_PassiveSkillName",
+      "key": "PassiveSkillName1286",
+      "source_hash": "1786f9bd",
+      "old": "破防时渐愈",
+      "new": "破防时再生",
+      "english": "Regen on Stagger"
+    },
+    {
+      "namespace": "ST_PassiveSkillName",
+      "key": "PassiveSkillName1287",
+      "source_hash": "36c3ea6b",
+      "old": "破防时急速",
+      "new": "破防时加速",
+      "english": "Haste on Stagger"
+    },
+    {
+      "namespace": "ST_PassiveSkillName",
+      "key": "PassiveSkillName1292",
+      "source_hash": "26737918",
+      "old": "即刻急速",
+      "new": "即刻加速",
+      "english": "Haste Opener"
+    },
+    {
+      "namespace": "ST_PassiveSkillName",
+      "key": "PassiveSkillName1293",
+      "source_hash": "07366ace",
+      "old": "即刻渐愈",
+      "new": "即刻再生",
+      "english": "Regen Opener"
+    },
+    {
+      "namespace": "ST_PassiveSkillName",
+      "key": "PassiveSkillName1298",
+      "source_hash": "02ee7b73",
+      "old": "即刻缓慢",
+      "new": "即刻减速",
+      "english": "Slow Opener"
+    },
+    {
+      "namespace": "ST_PassiveSkillName",
+      "key": "PassiveSkillName1301",
+      "source_hash": "c6e84ee5",
+      "old": "半血时急速",
+      "new": "半血时加速",
+      "english": "Haste at Half HP"
+    },
+    {
+      "namespace": "ST_PassiveSkillName",
+      "key": "PassiveSkillName1302",
+      "source_hash": "e7ad5d33",
+      "old": "半血时渐愈",
+      "new": "半血时再生",
+      "english": "Regen at Half HP"
+    },
+    {
+      "namespace": "ST_SkillDescription",
+      "key": "SkillDescription414100",
+      "source_hash": "9d789179",
+      "old": "恢复全体队员的生命值，赋予渐愈效果\n恢复可超过最大生命值",
+      "new": "恢复全体队员的生命值，赋予再生效果\n恢复可超过最大生命值",
+      "english": "Heal all allies and cast Regen on them. Heal effect can exceed max HP."
+    },
+    {
+      "namespace": "ST_SkillDescription",
+      "key": "SkillDescription414610",
+      "source_hash": "637b1512",
+      "old": "{Effect1Turn}回合，在防御的同时袒护目标",
+      "new": "{Effect1Turn}回合，在防御的同时保护目标",
+      "english": "Take attacks in place of target with Defend applied for {Effect1Turn} {Effect1Turn}|plural(one=turn, other=turns)."
+    },
+    {
+      "namespace": "ST_SkillDescription",
+      "key": "SkillDescription431020",
+      "source_hash": "dad6e3db",
+      "old": "召唤红玉之幻兽“卡邦库尔”\n自召唤起行动3回合",
+      "new": "召唤红玉之幻兽“宝石兽”\n自召唤起行动3回合",
+      "english": "Summon Carbuncle, the crimson gem.\nStays in battle for 3 turns."
+    },
+    {
+      "namespace": "ST_SkillDescription",
+      "key": "SkillDescription440010",
+      "source_hash": "f7492846",
+      "old": "对全体敌人进行物理攻击，{Effect1Turn}回合内\n提升自身的防御力与精神力，并赋予“渐愈”状态",
+      "new": "对全体敌人进行物理攻击，{Effect1Turn}回合内\n提升自身的防御力与精神力，并赋予“再生”状态",
+      "english": "Deal physical damage to all enemies, cast Regen on self, and increase own defense and spirit for {Effect1Turn} {Effect1Turn}|plural(one=turn, other=turns)."
+    },
+    {
+      "namespace": "ST_SkillDescription",
+      "key": "SkillDescription446850",
+      "source_hash": "2692194d",
+      "old": "攻击时，有几率使对象陷入缓慢状态，并使自身获得急速状态的特技",
+      "new": "攻击时，有几率使对象陷入减速状态，并使自身获得加速状态的特技",
+      "english": "[Battle Skill] Deal damage to an enemy with a chance to inflict Slow on target and cast Haste on self."
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName100030",
+      "source_hash": "409fc380",
+      "old": "以太",
+      "new": "以太药",
+      "english": "Ether"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName100040",
+      "source_hash": "ab35f9f2",
+      "old": "高级以太",
+      "new": "高级以太药",
+      "english": "Turbo Ether"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName100170",
+      "source_hash": "7444c103",
+      "old": "特级以太",
+      "new": "特级以太药",
+      "english": "X-Ether"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName100320",
+      "source_hash": "011edd9e",
+      "old": "魔雾以太",
+      "new": "魔雾以太药",
+      "english": "Mist Ether"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName100330",
+      "source_hash": "72b25da6",
+      "old": "魔雾高级以太",
+      "new": "魔雾高级以太药",
+      "english": "Mist Turbo Ether"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName100340",
+      "source_hash": "6597c8b6",
+      "old": "魔雾特级以太",
+      "new": "魔雾特级以太药",
+      "english": "Mist X-Ether"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName210050",
+      "source_hash": "433ccc51",
+      "old": "渐愈",
+      "new": "再生",
+      "english": "Regen"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName210120",
+      "source_hash": "7104ccb9",
+      "old": "复原",
+      "new": "康复",
+      "english": "Esuna"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName210130",
+      "source_hash": "b93376ab",
+      "old": "强复原",
+      "new": "强康复",
+      "english": "Esunaga"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName220300",
+      "source_hash": "dccdeadc",
+      "old": "吸血",
+      "new": "吸取",
+      "english": "Drain"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName220330",
+      "source_hash": "28b56eed",
+      "old": "火光",
+      "new": "核爆",
+      "english": "Flare"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName230130",
+      "source_hash": "6279df87",
+      "old": "急速",
+      "new": "加速",
+      "english": "Haste"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName230140",
+      "source_hash": "d63dbfd3",
+      "old": "强急速",
+      "new": "强加速",
+      "english": "Hastega"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName230150",
+      "source_hash": "4625d8ad",
+      "old": "缓慢",
+      "new": "减速",
+      "english": "Slow"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName230160",
+      "source_hash": "49450d23",
+      "old": "强缓慢",
+      "new": "强减速",
+      "english": "Slowga"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName250300",
+      "source_hash": "dccdeadc",
+      "old": "吸血",
+      "new": "吸取",
+      "english": "Drain"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName250330",
+      "source_hash": "28b56eed",
+      "old": "火光",
+      "new": "核爆",
+      "english": "Flare"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName300010",
+      "source_hash": "88a8a52f",
+      "old": "狂迷之声",
+      "new": "错乱之声",
+      "english": "Lunatic Voice"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName300110",
+      "source_hash": "68a611f6",
+      "old": "百万火光",
+      "new": "百万核爆",
+      "english": "Megaflare"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName400350",
+      "source_hash": "77e915ae",
+      "old": "剑之舞",
+      "new": "剑舞",
+      "english": "Blade Dance"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName400380",
+      "source_hash": "8c69483e",
+      "old": "袒护",
+      "new": "保护",
+      "english": "Cover"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName400390",
+      "source_hash": "bcfca07f",
+      "old": "袒护全体",
+      "new": "保护全体",
+      "english": "Multi-Cover"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName414510",
+      "source_hash": "8d877586",
+      "old": "强渐愈",
+      "new": "强再生",
+      "english": "Hi Regen"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName420270",
+      "source_hash": "adb4f0e7",
+      "old": "火光剑",
+      "new": "核爆剑",
+      "english": "Flare Blade"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName422040",
+      "source_hash": "b9f7e96f",
+      "old": "吸血匕首",
+      "new": "吸取匕首",
+      "english": "Drain Knife"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName431020",
+      "source_hash": "668835f1",
+      "old": "卡邦库尔",
+      "new": "宝石兽",
+      "english": "Carbuncle"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName440170",
+      "source_hash": "1fc0136d",
+      "old": "燃烧领域",
+      "new": "爆破领域",
+      "english": "Blasting Zone"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName446600",
+      "source_hash": "e9c90a18",
+      "old": "强行分离",
+      "new": "粗分斩",
+      "english": "Rough Divide"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName500160",
+      "source_hash": "a83cd4bc",
+      "old": "哥布林拳",
+      "new": "哥布林乱拳",
+      "english": "Goblin Punch"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName500800",
+      "source_hash": "51751224",
+      "old": "流水吐息",
+      "new": "水流吐息",
+      "english": "Aqua Breath"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName500840",
+      "source_hash": "6f87f276",
+      "old": "3级火光",
+      "new": "3级核爆",
+      "english": "Level 3 Flare"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName501870",
+      "source_hash": "72fe4013",
+      "old": "再生",
+      "new": "苏生",
+      "english": "Revive"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName501920",
+      "source_hash": "72fe4013",
+      "old": "再生",
+      "new": "苏生",
+      "english": "Revive"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName505820",
+      "source_hash": "68a611f6",
+      "old": "百万火光",
+      "new": "百万核爆",
+      "english": "Megaflare"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName571550",
+      "source_hash": "84b5b23d",
+      "old": "芥末炸弹",
+      "new": "芥末爆弹",
+      "english": "Mustard Bomb"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName580060",
+      "source_hash": "0f891093",
+      "old": "给我以太！",
+      "new": "给我以太药！",
+      "english": "Gimme an ether!"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName580070",
+      "source_hash": "cd2d5d30",
+      "old": "给我魔雾以太！",
+      "new": "给我魔雾以太药！",
+      "english": "Gimme a mist ether!"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName580080",
+      "source_hash": "c07cffe6",
+      "old": "给我高级以太！",
+      "new": "给我高级以太药！",
+      "english": "Gimme a turbo ether!"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName580090",
+      "source_hash": "e44a4c83",
+      "old": "给我魔雾高级以太！",
+      "new": "给我魔雾高级以太药！",
+      "english": "Gimme a mist turbo ether!"
+    },
+    {
+      "namespace": "ST_SkillName",
+      "key": "SkillName580100",
+      "source_hash": "95020fbe",
+      "old": "给我特级以太！",
+      "new": "给我特级以太药！",
+      "english": "Gimme an x-ether!"
     },
     {
       "namespace": "ST_SubEv_C01_Moogle_01",
@@ -165,6 +1069,14 @@
       "old": "我是光明莫古利，\r\n名为“光之莫古利”库啵！",
       "new": "我是光明莫古力，\r\n名为“光之莫古力”库啵！",
       "english": "Why, I’m the Moogle of Light, kupo!"
+    },
+    {
+      "namespace": "ST_SubEv_C01_Moogle_01",
+      "key": "SubEv_C01_Moogle_01_019",
+      "source_hash": "c8af2987",
+      "old": "嗯，我知道了。\r\n光明莫古利，以后也要麻烦你啦。",
+      "new": "嗯，我知道了。\r\n光明莫古力，以后也要麻烦你啦。",
+      "english": "You got it. Thanks, moogle light. Counting on you."
     },
     {
       "namespace": "ST_SubEv_C01_Moogle_01",
@@ -192,19 +1104,19 @@
     },
     {
       "namespace": "ST_SubEv_MechaboLvUp_10",
-      "key": "SubEv_MechaboLvUp_10_016",
-      "source_hash": "528d02cc",
-      "old": "正是如此！\r\n陆行鸟的伙伴，\r\n当然得是莫古利吧！",
-      "new": "正是如此！\r\n陆行鸟的伙伴，\r\n当然得是莫古力吧！",
-      "english": "Exactamundo! Chocobos and moogles go together like salt and pepper, right? That’s where I got the idea."
-    },
-    {
-      "namespace": "ST_SubEv_MechaboLvUp_10",
       "key": "SubEv_MechaboLvUp_10_015",
       "source_hash": "f53e0bee",
       "old": "机械莫古……？\r\n该不会是机械莫古利？",
       "new": "机械莫古……？\r\n该不会是机械莫古力？",
       "english": "Mechamog? Is that like...a mecha...moogle?"
+    },
+    {
+      "namespace": "ST_SubEv_MechaboLvUp_10",
+      "key": "SubEv_MechaboLvUp_10_016",
+      "source_hash": "528d02cc",
+      "old": "正是如此！\r\n陆行鸟的伙伴，\r\n当然得是莫古利吧！",
+      "new": "正是如此！\r\n陆行鸟的伙伴，\r\n当然得是莫古力吧！",
+      "english": "Exactamundo! Chocobos and moogles go together like salt and pepper, right? That’s where I got the idea."
     },
     {
       "namespace": "ST_SubProgress",
@@ -277,6 +1189,246 @@
       "old": "之前和莫古利们玩过两次激烈的捉迷藏，\r\n没想到现在竟然要玩第三次了。\r\n\r\n变得更加认真的莫古利们，这次究竟会逃往哪里呢？\r\n来吧，去追莫古利们吧！\r\n\r\n这场漫长的捉迷藏，最后以雷因的胜利落幕。\r\n\r\n历经三度较量，莫古利们总算明白自己无法从雷因的手掌心逃脱。\r\n但无论胜负如何，莫古利们似乎都非常满足，并向雷因致谢。",
       "new": "之前和莫古力们玩过两次激烈的捉迷藏，\r\n没想到现在竟然要玩第三次了。\r\n\r\n变得更加认真的莫古力们，这次究竟会逃往哪里呢？\r\n来吧，去追莫古力们吧！\r\n\r\n这场漫长的捉迷藏，最后以雷因的胜利落幕。\r\n\r\n历经三度较量，莫古力们总算明白自己无法从雷因的手掌心逃脱。\r\n但无论胜负如何，莫古力们似乎都非常满足，并向雷因致谢。",
       "english": "After two fierce battles of tag with the moogles, it’s time for the final round. The moogles are playing for keeps this time and certainly won’t make things easy. Now get out there and chase them down!\n\nAfter a hard-fought battle of tag, Rain emerges victorious and the moogles realize they’ll never win. Yet, they seem extremely satisfied and express their sincerest gratitude."
+    },
+    {
+      "namespace": "ST_Summon660_Carbuncle_06",
+      "key": "Summon660_Carbuncle_06_005",
+      "source_hash": "0074c423",
+      "old": "我是卡邦库尔。\r\n多亏了你，我终于能从这里出来了。\r\n谢谢你。",
+      "new": "我是宝石兽。\r\n多亏了你，我终于能从这里出来了。\r\n谢谢你。",
+      "english": "Yep! I’m Carbuncle. Thanks for getting me out of that thing!"
+    },
+    {
+      "namespace": "ST_Summon660_Carbuncle_06",
+      "key": "Summon660_Carbuncle_06_026",
+      "source_hash": "d8428bdb",
+      "old": "别发出那么失落的声音嘛。\r\n能再见到卡邦库尔，就已经很满足了。",
+      "new": "别发出那么失落的声音嘛。\r\n能再见到宝石兽，就已经很满足了。",
+      "english": "Oh, don’t be so down. I’m happy enough to see you again, Carbuncle."
+    },
+    {
+      "namespace": "ST_Summon660_Carbuncle_06",
+      "key": "Summon660_Carbuncle_06_031",
+      "source_hash": "9f0ed466",
+      "old": "哈哈，知道啦。\r\n卡邦库尔，接下来也请你多多帮忙了。",
+      "new": "哈哈，知道啦。\r\n宝石兽，接下来也请你多多帮忙了。",
+      "english": "Heh, gotcha. Nice to meet you too, Carbuncle!"
+    },
+    {
+      "namespace": "ST_Summon660_Carbuncle_07",
+      "key": "Summon660_Carbuncle_07_001",
+      "source_hash": "182ed39a",
+      "old": "要不是有你们帮忙，\r\n我大概就一直见不到卡邦库尔了。",
+      "new": "要不是有你们帮忙，\r\n我大概就一直见不到宝石兽了。",
+      "english": "If you hadn’t shown up, I’d probably never have seen Carbuncle again."
+    },
+    {
+      "namespace": "ST_Summon660_Carbuncle_07",
+      "key": "Summon660_Carbuncle_07_002",
+      "source_hash": "4d627a85",
+      "old": "我由衷地谢谢你们。\r\n要和卡邦库尔好好相处啊。",
+      "new": "我由衷地谢谢你们。\r\n要和宝石兽好好相处啊。",
+      "english": "Thank you, my friends, from the bottom of my heart. Please take good care of Carbuncle."
+    },
+    {
+      "namespace": "ST_Tutorial_Battle_Abnormal",
+      "key": "Tutorial_Battle_Abnormal_002",
+      "source_hash": "8da1d46b",
+      "old": "受到敌方攻击等影响，\r\n角色有时会陷入“状态异常”。\r\n \r\n因为会对我方造成各种不良影响，需多加留意。\r\n\r\n“状态异常”可通过白魔法“复原”\r\n或道具“万能药”等来解除。",
+      "new": "受到敌方攻击等影响，\r\n角色有时会陷入“状态异常”。\r\n \r\n因为会对我方造成各种不良影响，需多加留意。\r\n\r\n“状态异常”可通过白魔法“康复”\r\n或道具“万能药”等来解除。",
+      "english": "Certain enemy attacks inflict status ailments. These\r\ncan have various detrimental effects on affected\r\nallies, so be wary.\r\n\r\nStatus ailments can be cured by certain White Magic\r\nspells like Esuna and items such as remedies."
+    },
+    {
+      "namespace": "ST_Tutorial_Buff_Debuff",
+      "key": "Tutorial_Buff_Debuff_002",
+      "source_hash": "22fdf28c",
+      "old": "受到我方或敌方的魔法与技能影响，\r\n角色可能获得“强化效果”或“弱化效果”。\r\n\r\n它们会大幅影响战况，请善加掌控。\r\n\r\n“弱化效果”不同于“状态异常”，\r\n无法使用“复原”或相关道具来解除。",
+      "new": "受到我方或敌方的魔法与技能影响，\r\n角色可能获得“强化效果”或“弱化效果”。\r\n\r\n它们会大幅影响战况，请善加掌控。\r\n\r\n“弱化效果”不同于“状态异常”，\r\n无法使用“康复”或相关道具来解除。",
+      "english": "Certain magic can apply buffs or debuffs on characters.\r\nBe sure to monitor them, as they can greatly sway the outcome of a battle.\r\n\r\nUnlike status ailments, debuffs cannot be removed by\r\nEsuna or items."
+    },
+    {
+      "namespace": "ST_Tutorial_Buff_Debuff",
+      "key": "Tutorial_Buff_Debuff_004",
+      "source_hash": "5a50c11a",
+      "old": "渐愈：每次行动时恢复生命值\r\n反射：反射魔法（角色专用的魔法攻击除外）\r\n重生：仅限1次，在无法战斗时复活\r\n急速：速度提升\r\n缓慢：速度下降",
+      "new": "再生：每次行动时恢复生命值\r\n反射：反射魔法（角色专用的魔法攻击除外）\r\n重生：仅限1次，在无法战斗时复活\r\n加速：速度提升\r\n减速：速度下降",
+      "english": "<text style=\"bold\">Regen:</> Restores health each turn.\r\n<text style=\"bold\">Reflect:</> Reflects magic back\r\n(excluding magic unique to certain characters).\r\n<text style=\"bold\">Reraise:</> Revives a KO’d character once during battle.\r\n<text style=\"bold\">Haste:</> Increases speed.\r\n<text style=\"bold\">Slow:</> Decreases speed."
+    },
+    {
+      "namespace": "ST_UnitName",
+      "key": "UnitName10",
+      "source_hash": "03fe1571",
+      "old": "曼陀罗",
+      "new": "蔓德拉",
+      "english": "Mandragora"
+    },
+    {
+      "namespace": "ST_UnitName",
+      "key": "UnitName10455",
+      "source_hash": "668835f1",
+      "old": "卡邦库尔",
+      "new": "宝石兽",
+      "english": "Carbuncle"
+    },
+    {
+      "namespace": "ST_UnitName",
+      "key": "UnitName157",
+      "source_hash": "339f6d85",
+      "old": "痛楚炸弹",
+      "new": "痛楚爆弹怪",
+      "english": "Gray Bomb"
+    },
+    {
+      "namespace": "ST_UnitName",
+      "key": "UnitName2022",
+      "source_hash": "ede2e445",
+      "old": "大炸弹",
+      "new": "大爆弹怪",
+      "english": "Great Bomb"
+    },
+    {
+      "namespace": "ST_UnitName",
+      "key": "UnitName2092",
+      "source_hash": "109cfe62",
+      "old": "仙人掌怪",
+      "new": "仙人刺",
+      "english": "Cactuar"
+    },
+    {
+      "namespace": "ST_UnitName",
+      "key": "UnitName2093",
+      "source_hash": "166d9594",
+      "old": "提灯怪",
+      "new": "冬贝利",
+      "english": "Tonberry"
+    },
+    {
+      "namespace": "ST_UnitName",
+      "key": "UnitName2094",
+      "source_hash": "6ee7bdc0",
+      "old": "炸弹",
+      "new": "爆弹怪",
+      "english": "Bomb"
+    },
+    {
+      "namespace": "ST_UnitName",
+      "key": "UnitName24",
+      "source_hash": "6ee7bdc0",
+      "old": "炸弹",
+      "new": "爆弹怪",
+      "english": "Bomb"
+    },
+    {
+      "namespace": "ST_UnitName",
+      "key": "UnitName289",
+      "source_hash": "166d9594",
+      "old": "提灯怪",
+      "new": "冬贝利",
+      "english": "Tonberry"
+    },
+    {
+      "namespace": "ST_UnitName",
+      "key": "UnitName290",
+      "source_hash": "6235f4e7",
+      "old": "提灯怪首领",
+      "new": "冬贝利首领",
+      "english": "Master Tonberry"
+    },
+    {
+      "namespace": "ST_UnitName",
+      "key": "UnitName35",
+      "source_hash": "4cfc2f8d",
+      "old": "石化翼蜥",
+      "new": "石蜥蜴",
+      "english": "Basilisk"
+    },
+    {
+      "namespace": "ST_UnitName",
+      "key": "UnitName38",
+      "source_hash": "109cfe62",
+      "old": "仙人掌怪",
+      "new": "仙人刺",
+      "english": "Cactuar"
+    },
+    {
+      "namespace": "ST_UnitName",
+      "key": "UnitName39",
+      "source_hash": "c22207aa",
+      "old": "小仙人掌",
+      "new": "幼小仙人掌",
+      "english": "Minituar"
+    },
+    {
+      "namespace": "ST_UnitName",
+      "key": "UnitName446",
+      "source_hash": "2d2c4713",
+      "old": "炸弹之父",
+      "new": "爆弹之父",
+      "english": "Dad Bomb"
+    },
+    {
+      "namespace": "ST_UnitName",
+      "key": "UnitName447",
+      "source_hash": "cddf3ce9",
+      "old": "炸弹之母",
+      "new": "爆弹之母",
+      "english": "Mom Bomb"
+    },
+    {
+      "namespace": "ST_UnitTrait01",
+      "key": "Trait_01_155",
+      "source_hash": "a346c4c9",
+      "old": "会使用缓慢攻击",
+      "new": "会使用减速攻击",
+      "english": "Uses Slow attacks."
+    },
+    {
+      "namespace": "ST_UnitTrait01",
+      "key": "Trait_01_197",
+      "source_hash": "9424d962",
+      "old": "始终处于渐愈状态",
+      "new": "始终处于再生状态",
+      "english": "Has constant Regen."
+    },
+    {
+      "namespace": "ST_UnitTrait01",
+      "key": "Trait_01_458",
+      "source_hash": "f6723ede",
+      "old": "倒计时到0时就会施放百万火光",
+      "new": "倒计时到0时就会施放百万核爆",
+      "english": "Unleashes Megaflare each time the countdown reaches zero."
+    },
+    {
+      "namespace": "ST_UnitTrait02",
+      "key": "Trait_02_20",
+      "source_hash": "a346c4c9",
+      "old": "会使用缓慢攻击",
+      "new": "会使用减速攻击",
+      "english": "Uses Slow attacks."
+    },
+    {
+      "namespace": "ST_UnitTrait03",
+      "key": "Trait_03_103",
+      "source_hash": "a346c4c9",
+      "old": "会使用缓慢攻击",
+      "new": "会使用减速攻击",
+      "english": "Uses Slow attacks."
+    },
+    {
+      "namespace": "ST_UnitTrait03",
+      "key": "Trait_03_456",
+      "source_hash": "44fca8e0",
+      "old": "陷入缓慢时，受到一定值以上的魔法伤害就会反击",
+      "new": "陷入减速时，受到一定值以上的魔法伤害就会反击",
+      "english": "When inflicted with Slow, counterattacks after taking a fixed amount of magic damage."
+    },
+    {
+      "namespace": "ST_UnitTrait03",
+      "key": "Trait_03_71",
+      "source_hash": "a346c4c9",
+      "old": "会使用缓慢攻击",
+      "new": "会使用减速攻击",
+      "english": "Uses Slow attacks."
     }
   ],
   "excluded": [
@@ -296,5 +1448,16 @@
   "upgrade_from_pak_sha256": [
     "ec603aaddce333135cc8e7582661673b1edddfa589cd736501c0b9f3ecf0b6bc",
     "d823cd8a7c1afa50318c01d52c165b486dce3c547956b6dd5ead28674fe18753"
-  ]
+  ],
+  "upgrade_from_files": {
+    "FFRS-FlareZhHans_99_P.pak": [
+      "d823cd8a7c1afa50318c01d52c165b486dce3c547956b6dd5ead28674fe18753"
+    ],
+    "FFRS-FlareZhHans_99_P.ucas": [
+      "dec4f78ca48bbb3536d550142d479fd70daab0e4a5deb6325a0c09f3dc30ac48"
+    ],
+    "FFRS-FlareZhHans_99_P.utoc": [
+      "6226e3e78d2797f4fba7bb29e181aabe6ccbb2069543f96b94634c741bc77a91"
+    ]
+  }
 }

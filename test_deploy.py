@@ -22,7 +22,7 @@ with tempfile.TemporaryDirectory(prefix='ffrs-flare-deploy-') as temporary:
         paks = game / 'FFRS/Content/Paks'; paks.mkdir(parents=True)
         (paks/'FFRS-Windows.pak').write_bytes(b'ORIGINAL GAME ARCHIVE')
         mods=paks/'~mods';mods.mkdir();(mods/'OtherMod.pak').write_bytes(b'OTHER MOD')
-        meta=json.loads((bundle/'package.json').read_text());meta['supported_retail_exe_sha256']=sha(exe)
+        meta=json.loads((bundle/'package.json').read_text());meta['supported_retail_exe_sha256']=sha(exe);meta['retailExeSha256']=sha(exe)
         (bundle/'package.json').write_text(json.dumps(meta))
         return bundle,game,exe,mods/meta['pak_filename']
     def invoke(bundle,game,action,expected=0,running=False,fail_destination=None):
@@ -31,7 +31,7 @@ with tempfile.TemporaryDirectory(prefix='ffrs-flare-deploy-') as temporary:
         injection=''
         if fail_destination:
             injection="$script:failed=$false; function Move-Item { param($LiteralPath,$Destination,[switch]$Force); if ($Destination -eq "+quote(fail_destination)+" -and -not $script:failed) { $script:failed=$true; throw 'Injected move failure' }; Microsoft.PowerShell.Management\\Move-Item -LiteralPath $LiteralPath -Destination $Destination -Force:$Force }; "
-        command=mocked+injection+'& '+quote(bundle/'Manage-Patch.ps1')+' -Action '+action+' -GameDirectory '+quote(game)
+        command=mocked+injection+'& '+quote(bundle/'Manage-Patch.ps1')+' -Action '+action+' -NonInteractive -GameDirectory '+quote(game)
         result=subprocess.run(['powershell.exe','-NoProfile','-ExecutionPolicy','Bypass','-Command',command],capture_output=True,text=True,timeout=30)
         if result.returncode!=expected:raise AssertionError(result.stdout+'\n'+result.stderr)
         assert (game/'FFRS/Content/Paks/FFRS-Windows.pak').read_bytes()==b'ORIGINAL GAME ARCHIVE'
@@ -57,14 +57,20 @@ with tempfile.TemporaryDirectory(prefix='ffrs-flare-deploy-') as temporary:
     bundle,game,exe,mod=fixture('companion-rollback')
     invoke(bundle,game,'Install',1,fail_destination=mod.with_suffix('.ucas'))
     assert all(not mod.with_suffix(ext).exists() for ext in ['.pak','.utoc','.ucas'])
-    checks=['companion conflict/corruption and third-file rollback','install/idempotence/uninstall after game update','unknown build rejected','foreign file preserved','running game rejected','corrupt payload rejected']
+    bundle,game,exe,mod=fixture('toggle')
+    (exe.parent/'winmm.dll').write_bytes(b'EXISTING UNRELATED LOADER')
+    invoke(bundle,game,'Install');invoke(bundle,game,'Disable')
+    assert all(not mod.with_suffix(ext).exists() and Path(str(mod.with_suffix(ext))+'.disabled').exists() for ext in ['.pak','.utoc','.ucas'])
+    invoke(bundle,game,'Enable');assert all(mod.with_suffix(ext).exists() for ext in ['.pak','.utoc','.ucas'])
+    invoke(bundle,game,'Uninstall');assert (exe.parent/'winmm.dll').read_bytes()==b'EXISTING UNRELATED LOADER'
+    checks=['enable/disable all companions while preserving unrelated loader','companion conflict/corruption and third-file rollback','install/idempotence/uninstall after game update','unknown build rejected','foreign file preserved','running game rejected','corrupt payload rejected']
     if len(sys.argv)>2:
         previous=Path(sys.argv[2]).resolve()
         bundle,game,exe,mod=fixture('known-upgrade')
         old=next((previous/'payload').glob('*.pak')).read_bytes();mod.write_bytes(old)
         invoke(bundle,game,'Install')
         assert mod.read_bytes()==next((bundle/'payload').glob('*.pak')).read_bytes()
-        assert any(p.read_bytes()==old for p in (bundle/'backups').glob('*.pak'))
-        invoke(bundle,game,'Uninstall');assert all(not mod.with_suffix(ext).exists() for ext in ['.pak','.utoc','.ucas'])
+        assert any(p.read_bytes()==old for p in (bundle/'.ffrs-terminology-backups').rglob('*.pak'))
+        invoke(bundle,game,'Uninstall');assert mod.read_bytes()==old and not mod.with_suffix('.utoc').exists() and not mod.with_suffix('.ucas').exists()
         checks.append('verified previous version backed up and upgraded')
 print(json.dumps({'passed_groups':len(checks),'checks':checks,'original_archives_and_other_mods':'unchanged'}))
