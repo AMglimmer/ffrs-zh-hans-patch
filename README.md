@@ -308,4 +308,6 @@ The builder validates the original resource hash, patches only approved keys, pr
 
 The Locres layout was cross-checked with [UnrealLocres](https://github.com/akintos/UnrealLocres) and [CUE4Parse](https://github.com/FabianFG/CUE4Parse). Container tools: [repak](https://github.com/trumank/repak), [retoc](https://github.com/trumank/retoc). Terminology reference: [FFCAFE](https://strings.ffcafe.cn/).
 
+感谢 [FFCAFE](https://strings.ffcafe.cn/) 提供 FF14 多语言检索服务，为本补丁的术语核对提供参考。
+
 Game text and assets retain their original owners' rights. This project is not affiliated with or endorsed by Square Enix or FFCAFE. Choosing FF14 terminology is a community preference, not a claim that other official translations are erroneous.

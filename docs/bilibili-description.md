@@ -89,5 +89,6 @@ Drain 的“吸血”改为“吸取”，另一招 Leech 仍为“吸血”。R
 
 既有核爆、莫古力已实机确认；新增条目完成自动校验，仍在持续进行画面验收。
 
-术语参考：https://strings.ffcafe.cn/
+术语参考与鸣谢：FFCAFE https://strings.ffcafe.cn/
+感谢 FFCAFE 提供 FF14 多语言检索服务，为本补丁的术语核对提供参考。
 非官方社区 MOD。制作工具：repak、retoc；代码及工具许可见仓库。游戏文本与素材版权归各自权利人。
